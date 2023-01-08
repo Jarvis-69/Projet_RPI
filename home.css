@@ -4,28 +4,33 @@
 }
 
 @font-face {
-    font-family: 'police';
-    src: url('C:/Users/joris/Desktop/Site_Corporate/eurostile-font/eurostile font/EurostileBold.ttf') format('truetype');
+    font-family: 'police1';
+    src: url('C:/Users/joris/Desktop/Site_Corporate/eurostile-font/eurostile font/Eurostile.ttf') format('truetype');
   }
+
+@font-face {
+  font-family: 'police2';
+  src: url('C:/Users/joris/Desktop/Site_Corporate/insominia/Insominia.ttf');
+}
 
 nav {
     background-color: #0F0C1F;
     height: 100px;
     font-family: 'police';
     font-size: 20px;
-  }
+}
   
-  nav ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     overflow: hidden;
-  }
+}
   
-  nav li {
+nav li {
     float: right;
-  }
+}
   
-  nav a {
+nav a {
     display: block;
     color: #40E0AE;
     text-align: center;
@@ -36,11 +41,11 @@ nav {
     padding-top: 35px;
     padding-bottom: 35px;
     text-decoration: none;
-  }
+}
   
-  nav a:hover {
+nav a:hover {
     background-color: #111;
-  }
+}
 
 #game_space {
     box-sizing: border-box;
@@ -68,9 +73,7 @@ nav {
 #first_div {
     position: flex;
     width: 1920px;
-    height: 831px;
-    left: 0px;
-    top: 100px;
+    height: 830px;
     background: url(BG_1.png);
 }
 
@@ -104,9 +107,7 @@ nav {
 #second_div {
     display: flex;
     width: 1920px;
-    height: 896px;
-    left: 0px;
-    top: 1930px;
+    height: 830px;
     background: #0F0C1F;
 }
 
@@ -115,13 +116,14 @@ nav {
     margin-left: 300px;
     margin-top: 150px;
     margin-bottom: 150px;
-    }
+}
 
 #second_div_h1
 {
     margin-top: 300px;
+    margin-left: 20px;
     
-    font-family: 'Insominia';
+    font-family: 'police2';
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
@@ -132,4 +134,59 @@ nav {
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+
+#second_div_p {
+  color: white; 
+  width: 600px; 
+  height: 200px; 
+  margin-top: 20px;
+  margin-left: 20px;
+  font-family: 'police1';
+  font-size: 20px;
+}
+
+#third_div {
+  position: flex;
+  width: 1920px;
+  height: 900px;
+  background: #FBDF5A;
+}
+
+#third_div_h1 {
+  font-family: 'police2';
+  position: flex;
+  font-size: 48px;
+  height: 100px;
+  
+  padding-left: 650px;
+  padding-top: 130px;
+}
+
+#third_div_img {
+  position: absolute;
+  left: 150px;
+  height: 160px;
+  width: 200px;
+  margin-top: 500px;
+}
+
+#third_div_button {
+  position: absolute;
+  width: 390px;
+  height: 64px;
+  left: 768px;
+  top: 2490px;
+  margin-bottom: 70px;
+
+  font-family: 'police';
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 30px;
+
+  background: #F85242;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  filter: drop-shadow(0px 4px 4px #40E0AE);
 }
