@@ -4,19 +4,22 @@
 }
 
 @font-face {
-    font-family: 'police1';
+    font-family: 'Eurostile';
     src: url('C:/Users/joris/Desktop/Site_Corporate/eurostile-font/eurostile font/Eurostile.ttf') format('truetype');
   }
 
 @font-face {
-  font-family: 'police2';
+  font-family: 'Insominia';
   src: url('C:/Users/joris/Desktop/Site_Corporate/insominia/Insominia.ttf');
 }
 
 nav {
-    background-color: #0F0C1F;
+    position: absolute;
+    width: 1903px;
     height: 100px;
-    font-family: 'police';
+
+    background-color: #0F0C1F;
+    font-family: 'Insominia';
     font-size: 20px;
 }
   
@@ -40,6 +43,7 @@ nav a {
     margin-right: 25px;
     padding-top: 35px;
     padding-bottom: 35px;
+    margin-top: 3px;
     text-decoration: none;
 }
   
@@ -48,33 +52,35 @@ nav a:hover {
 }
 
 #game_space {
-    box-sizing: border-box;
 
-    margin-bottom: 25px;
-    margin-top: 20px;
-    margin-right: 50px;
-    padding-top: 14px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    height: 55px;
+    width: 225px;
+    padding: 15px;
 
     background: #F85242;
     color: white;
-    height: 50px;
-    width: 225px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+    margin-top: 20px;
     filter: drop-shadow(0px 4px 4px #40E0AE);
 }
 
 #logo {
-    margin-left: 10px;
-    margin-top: 6px;
-    margin-bottom: 4px;
+    position: absolute;
+    width: 225px;
+    height: 90px;
+    left: 10px;
+    top: 6px;
 }
 
 #first_div {
-    position: flex;
-    width: 1920px;
-    height: 830px;
+    /* A RECENTRER */
+    position: absolute;
+    width: 1903px;
+    height: 831px;
+    top: 100px;
     background: url(BG_1.png);
+    background-position-x: -1px; 
 }
 
 #first_logo {
@@ -92,7 +98,7 @@ nav a:hover {
     left: 768px;
     top: 696px;
 
-    font-family: 'police';
+    font-family: 'Insominia';
     color: white;
     font-size: 30px;
     text-align: center;
@@ -105,78 +111,80 @@ nav a:hover {
 }
 
 #second_div {
-    display: flex;
-    width: 1920px;
-    height: 830px;
+    /* A RECENTRER */
+    position: absolute;
+    width: 1903px;
+    height: 940px;
+    top : 930px;
     background: #0F0C1F;
 }
 
 #second_div_img {
     position: absolute;
-    margin-left: 300px;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    left: 300px;
+    top: 150px;
+    bottom: 150px;
 }
 
 #second_div_h1
 {
-    margin-top: 300px;
-    margin-left: 20px;
+    position: absolute;
+    top: 275px;
+    left: 1000px;
+
+    width: 700px;
+    height: 62px;
     
-    font-family: 'police2';
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'Insominia';
     font-size: 48px;
-    line-height: 48px;
-    
     color: #FBDF5A;
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
-#second_div_p {
-  color: white; 
-  width: 600px; 
-  height: 200px; 
-  margin-top: 20px;
-  margin-left: 20px;
-  font-family: 'police1';
-  font-size: 20px;
+#second_div_p 
+{
+    position: absolute;
+    top: 375px;
+    left: 1000px;
+
+    color: white; 
+    width: 600px; 
+    height: 250px;
+    font-family: 'Insominia';
+    font-size: 20px;
 }
 
 #third_div {
-  position: flex;
-  width: 1920px;
-  height: 900px;
+  position: absolute;
+  width: 1903px;
+  height: 940px;
+  top: 1870px;
   background: #FBDF5A;
 }
 
 #third_div_h1 {
-  font-family: 'police2';
-  position: flex;
+  font-family: 'Insominia';
+  position: absolute;
+  top: 75px;
+  left: 577.5px;
   font-size: 48px;
   height: 100px;
-  
-  padding-left: 650px;
-  padding-top: 130px;
+  width: 725px;
 }
 
 #third_div_img {
   position: absolute;
+  top : 500px;
   left: 150px;
   height: 160px;
   width: 200px;
-  margin-top: 500px;
 }
 
 #third_div_button {
   position: absolute;
   width: 390px;
   height: 64px;
-  left: 768px;
-  top: 2490px;
+  left: 745px;
+  top: 800px;
   margin-bottom: 70px;
 
   font-family: 'police';
@@ -189,4 +197,282 @@ nav a:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   filter: drop-shadow(0px 4px 4px #40E0AE);
+}
+
+#third_div_div{
+    position: absolute;
+    width: 901px;
+    height: 625px;
+    left: 509px;
+    top: 150px;
+}
+
+#third_div12{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+}
+#third_div34{
+    position: absolute;
+    top: 275px;
+    width: 100%;
+    height: 50%;
+}
+
+#third_div1{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+
+#third_div2{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 450.5px;
+}
+
+#third_div3{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+
+#third_div4{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 450.5px;
+}
+
+#third_div1_h1{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: 160px;
+
+    font-family: 'Insominia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#third_div2_h1{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: 160px;
+
+    font-family: 'Insominia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#third_div3_h1{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: 160px;
+    
+    font-family: 'Insominia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#third_div4_h1{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: 160px;
+
+    font-family: 'Insominia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#third_div1_p {
+    position: absolute;
+    width: 100%;
+    height: 102.5px;
+    left: 0px;
+    top: 210px;
+
+    font-family: 'EuroStyle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#third_div2_p {
+    position: absolute;
+    width: 100%;
+    height: 102.5px;
+    left: 0px;
+    top: 210px;
+
+    font-family: 'EuroStyle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#third_div3_p {
+    position: absolute;
+    width: 100%;
+    height: 102.5px;
+    left: 0px;
+    top: 210px;
+
+    font-family: 'EuroStyle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#third_div4_p {
+    position: absolute;
+    width: 100%;
+    height: 102.5px;
+    left: 0px;
+    top: 210px;
+
+    font-family: 'EuroStyle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#fourth_div {
+    position: absolute;
+    width: 1903px;
+    height: 940px;
+    top: 2810px;
+    background: #40E0AE;
+}
+
+#fourth_div_h1 {
+    position: absolute;
+    top: 75px;
+    left: 565px;
+    font-size: 48px;
+    height: 40px;
+    width: 750px;
+
+    font-family: 'Insominia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#fourth_div_div1 {
+    position: absolute;
+    width: 451px;
+    height: 365.33px;
+    left: 331px;
+    top: 319px;
+}
+
+#fourth_div_div1_top {
+    width: 100%;
+    height: 178.33px;
+}
+
+#fourth_div_div1_top_h1 {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+
+    font-family: 'Insominia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #F85242;
+}
+
+#fourth_div_div1_top_p {
+    position: absolute;
+    width: 100%;
+    height: 117.33px;
+    left: 0px;
+    top: 75px;
+
+    font-family: 'EuroStyle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #000000;
+}
+
+#fourth_div_img {
+    width: 100%;
+    height: 177px;
+}
+
+#fourth_div_div2 {
+    position: absolute;
+    width: 959px;
+    height: 500px;
+    left: 961px;
+    top: 267px;
+}
+
+#fourth_div_div2_h1 {
+    position: absolute;
+    width: 329px;
+    height: 40px;
+    left: 194px;
+    top: 0px;
+
+    font-family: 'Insominia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+
+    color: #000000;
 }
