@@ -476,3 +476,59 @@ nav a:hover {
 
     color: #000000;
 }
+
+#fourth_div_div2_a {
+    position: absolute;
+    width: 225px;
+    height: 50px;
+    left: 225px;
+    top: 500px;
+
+    font-family: 'Insominia';
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+
+    background: #F85242;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px #40E0AE);
+}
+
+#fourth_div_div2_a1 {
+    position: absolute;
+    left: 25px;
+    top: 75px;
+
+    font-family: 'EuroStyle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+#fifth_div {
+    position: absolute;
+    width: 1903px;
+    height: 410px;
+    top: 3750px;
+    background: #0F0C1F;
+}
+
+#fifth_div_div {
+    position: absolute;
+    width: 1219px;
+    height: 247px;
+    left: 336px;
+    top: 96px;
+}
+
+#fifth_div_img {
+    width: 308px;
+    height: 124px;
+    float: right;
+}
