@@ -165,10 +165,10 @@ nav a:hover {
   font-family: 'Insominia';
   position: absolute;
   top: 75px;
-  left: 577.5px;
+  left: 641.5px;
   font-size: 48px;
-  height: 100px;
-  width: 725px;
+  height: 50px;
+  width: 620px;
 }
 
 #third_div_img {
@@ -511,6 +511,36 @@ nav a:hover {
     color: #FFFFFF;
 }
 
+#fourth_div_div2_a2 {
+    position: absolute;
+    left: 25px;
+    top: 175px;
+
+    font-family: 'EuroStyle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+#fourth_div_div2_a3 {
+    position: absolute;
+    left: 25px;
+    top: 275px;
+
+    font-family: 'EuroStyle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
 #fifth_div {
     position: absolute;
     width: 1903px;
@@ -531,4 +561,31 @@ nav a:hover {
     width: 308px;
     height: 124px;
     float: right;
+}
+
+#adress_mail {
+    position: absolute;
+    top: 125px;
+    height: 50px;
+    width: 525px;
+
+    border-radius: 10px;
+}
+
+#name {
+    position: absolute;
+    top: 225px;
+    height: 50px;
+    width: 525px;
+
+    border-radius: 10px;
+}
+
+#message {
+    position: absolute;
+    top: 325px;
+    height: 50px;
+    width: 525px;
+
+    border-radius: 10px;
 }
