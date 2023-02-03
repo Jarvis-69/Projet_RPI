@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -100,7 +104,7 @@ nav a:hover {
 #first_button {
     position: absolute;
     width: 390px;
-    height: 64px;
+    height: 50px;
     left: 768px;
     top: 696px;
 
@@ -108,7 +112,7 @@ nav a:hover {
     color: white;
     font-size: 30px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
 
     background: #F85242;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -188,16 +192,15 @@ nav a:hover {
 #third_div_button {
   position: absolute;
   width: 390px;
-  height: 64px;
+  height: 50px;
   left: 745px;
   top: 800px;
-  margin-bottom: 70px;
 
   font-family: 'Insominia';
   color: white;
   font-size: 30px;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
 
   background: #F85242;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -513,7 +516,7 @@ nav a:hover {
     color: white;
     font-size: 30px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 20px;
 
     background: #F85242;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -692,6 +695,6 @@ nav a:hover {
     font-family: 'Insominia';
     text-align: center;
     color: white;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
