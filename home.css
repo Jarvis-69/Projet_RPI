@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family: 'Eurostile';
+    font-family: 'EuroStyle';
     src: url('C:/Users/joris/Desktop/Site_Corporate/eurostile-font/eurostile font/Eurostile.ttf') format('truetype');
   }
 
@@ -560,7 +560,9 @@ nav a:hover {
 #fifth_div_img {
     width: 308px;
     height: 124px;
-    float: right;
+    position: absolute;
+    top: 55px;
+    left: 911px;
 }
 
 #adress_mail {
@@ -589,3 +591,73 @@ nav a:hover {
 
     border-radius: 10px;
 }
+
+#fifth_div_div_left {
+    position: absolute;
+    width: 261px;
+    height: 100%;
+}
+
+#footer_txt_left {
+    font-family: 'EuroStyle';
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 140px;
+    left: 35px;
+}
+
+#footer_div_mid {
+    width: 238px;
+    height: 247px;
+    position: absolute;
+    left: 450px;
+}
+
+#footer_div_mid_h1 {
+    width: 238px;
+    height: 37px;
+
+    font-family: 'Insominia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #F85242;
+}
+
+#footer_div_mid_txt {
+    position: absolute;
+    top: 60px;
+    width: 222px;
+    height: 140px;
+
+    font-family: 'EuroStyle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#footer_div_mid_buton {
+    box-sizing: border-box;
+
+    position: absolute;
+    top: 225px;
+    width: 225px;
+    height: 50px;
+
+    background: #F85242;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+}
+
