@@ -13,6 +13,10 @@
   src: url('C:/Users/joris/Desktop/Site_Corporate/insominia/Insominia.ttf');
 }
 
+a {
+    text-decoration: none;
+}  
+
 nav {
     position: absolute;
     width: 1903px;
@@ -670,7 +674,7 @@ nav a:hover {
     line-height: 20px;
     text-align: center;
 
-    color: #FFFFFF;
+    color: white;
 }
 
 #footer_div_mid_buton {
