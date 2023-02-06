@@ -592,7 +592,8 @@ nav a:hover {
     position: absolute;
     width: 1219px;
     height: 247px;
-    left: 336px;
+    /* left: 336px; */
+    left: 25%;
     top: 96px;
 }
 
