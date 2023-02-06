@@ -9,12 +9,12 @@ html {
 
 @font-face {
     font-family: 'EuroStyle';
-    src: url('C:/Users/joris/Desktop/Site_Corporate/eurostile-font/eurostile font/EuroStyle_Normal.ttf');
+    src: url('eurostile-font/EuroStyle_Normal.ttf');
   }
 
 @font-face {
   font-family: 'Insominia';
-  src: url('C:/Users/joris/Desktop/Site_Corporate/insominia/Insominia.ttf');
+  src: url('insominia/Insominia.ttf');
 }
 
 a {
@@ -23,7 +23,7 @@ a {
 
 nav {
     position: absolute;
-    width: 1903px;
+    width: 100%;
     height: 100px;
 
     background-color: #0F0C1F;
@@ -86,7 +86,7 @@ nav a:hover {
 #first_div {
     /* A RECENTRER */
     position: absolute;
-    width: 1903px;
+    width: 100%;
     height: 831px;
     top: 100px;
     background: url(BG_1.png);
@@ -97,7 +97,7 @@ nav a:hover {
     position: absolute;
     width: 200px;
     height: 360px;
-    left: 860px;
+    left: 45%;
     top: 171px;
 }
 
@@ -105,7 +105,7 @@ nav a:hover {
     position: absolute;
     width: 390px;
     height: 50px;
-    left: 768px;
+    left: 42%;
     top: 696px;
 
     font-family: 'Insominia';
@@ -123,26 +123,34 @@ nav a:hover {
 #second_div {
     /* A RECENTRER */
     position: absolute;
-    width: 1903px;
+    width: 100%;
     height: 940px;
     top : 930px;
     background: #0F0C1F;
 }
 
+#second_right {
+    position: absolute;
+    width: 600px;
+    height: 650px;
+    left: 50%;
+    top: 275px;
+}
+
 #second_div_img {
     position: absolute;
-    left: 300px;
     top: 150px;
     bottom: 150px;
+    left: 20%;
 }
 
 #second_div_h1
 {
-    position: absolute;
+    /* position: absolute;
     top: 275px;
-    left: 1000px;
+    left: 50%; */
 
-    width: 700px;
+    width: 625px;
     height: 62px;
     
     font-family: 'Insominia';
@@ -153,8 +161,7 @@ nav a:hover {
 #second_div_p 
 {
     position: absolute;
-    top: 375px;
-    left: 1000px;
+    top: 100px;
 
     color: white; 
     width: 600px; 
@@ -165,7 +172,7 @@ nav a:hover {
 
 #third_div {
   position: absolute;
-  width: 1903px;
+  width: 100%;
   height: 940px;
   top: 1870px;
   background: #FBDF5A;
@@ -175,7 +182,8 @@ nav a:hover {
   font-family: 'Insominia';
   position: absolute;
   top: 75px;
-  left: 641.5px;
+  /* left: 641.5px; */
+  left: 37.5%;
   font-size: 48px;
   height: 50px;
   width: 620px;
@@ -184,7 +192,8 @@ nav a:hover {
 #third_div_img {
   position: absolute;
   top : 500px;
-  left: 150px;
+  /* left: 150px; */
+  left: 10%;
   height: 160px;
   width: 200px;
 }
@@ -193,7 +202,8 @@ nav a:hover {
   position: absolute;
   width: 390px;
   height: 50px;
-  left: 745px;
+  /* left: 745px; */
+  left: 40%;
   top: 800px;
 
   font-family: 'Insominia';
@@ -212,7 +222,8 @@ nav a:hover {
     position: absolute;
     width: 901px;
     height: 625px;
-    left: 509px;
+    /* left: 509px; */
+    left: 30%;
     top: 150px;
 }
 
@@ -409,7 +420,7 @@ nav a:hover {
 
 #fourth_div {
     position: absolute;
-    width: 1903px;
+    width: 100%;
     height: 940px;
     top: 2810px;
     background: #40E0AE;
@@ -571,7 +582,7 @@ nav a:hover {
 
 #fifth_div {
     position: absolute;
-    width: 1903px;
+    width: 100%;
     height: 410px;
     top: 3750px;
     background: #0F0C1F;
