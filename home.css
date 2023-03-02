@@ -438,9 +438,10 @@ nav a:hover {
 #fourth_div_h1 {
     position: absolute;
     top: 75px;
+    left: 565px;
     font-size: 48px;
     height: 40px;
-    width: 100%;
+    width: 750px;
 
     font-family: 'Insominia';
     font-style: normal;
@@ -456,7 +457,7 @@ nav a:hover {
     position: absolute;
     width: 451px;
     height: 365.33px;
-    left: 20%;
+    left: 331px;
     top: 319px;
 }
 
@@ -505,8 +506,7 @@ nav a:hover {
     position: absolute;
     width: 550px;
     height: 600px;
-    /* left: 961px; */
-    left: 60%;
+    left: 961px;
     top: 267px;
 }
 
