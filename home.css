@@ -21,15 +21,9 @@ a {
     text-decoration: none;
 }  
 
-<<<<<<< Updated upstream
 nav {
     position: absolute;
     width: 100%;
-=======
-#nav {
-    position: fixed;
-    width: 1903px;
->>>>>>> Stashed changes
     height: 100px;
 
     background-color: #0F0C1F;
