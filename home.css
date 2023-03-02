@@ -592,20 +592,33 @@ nav a:hover {
 }
 
 #fifth_div_div {
-    position: absolute;
+    position: relative;
     width: 1219px;
-    height: 247px;
-    /* left: 336px; */
-    left: 25%;
-    top: 96px;
+    height: 300px;
+    top: 50px;
+    margin: 0 auto;
 }
 
 #fifth_div_img {
+    position: relative;
     width: 308px;
     height: 124px;
-    position: absolute;
     top: 55px;
-    left: 911px;
+    float: right;
+}
+
+#fifth_div_div_left {
+    position: relative;
+    width: 261px;
+    top: 20px;
+}
+
+#footer_div_mid {
+    position: absolute;
+    width: 238px;
+    height: 275px;
+    left: 450px;
+    top: 20px ;
 }
 
 #adress_mail {
@@ -638,12 +651,6 @@ nav a:hover {
     border-color: white;
 }
 
-#fifth_div_div_left {
-    position: absolute;
-    width: 261px;
-    height: 100%;
-}
-
 #footer_txt_left {
     font-family: 'EuroStyle';
     font-style: normal;
@@ -656,13 +663,6 @@ nav a:hover {
     position: absolute;
     width: 100%;
     top: 140px;
-}
-
-#footer_div_mid {
-    width: 238px;
-    height: 275px;
-    position: absolute;
-    left: 450px;
 }
 
 #footer_div_mid_h1 {
