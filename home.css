@@ -21,17 +21,26 @@ a {
     text-decoration: none;
 }  
 
+<<<<<<< Updated upstream
 nav {
     position: absolute;
     width: 100%;
+=======
+#nav {
+    position: fixed;
+    width: 1903px;
+>>>>>>> Stashed changes
     height: 100px;
 
     background-color: #0F0C1F;
     font-family: 'Insominia';
     font-size: 20px;
+
+    /* display: flex;  */
+    z-index: 999;
 }
   
-nav ul {
+nav ul { 
     list-style-type: none;
     margin: 0;
     overflow: hidden;
@@ -709,4 +718,3 @@ nav a:hover {
     color: white;
     padding-top: 20px;
 }
-
