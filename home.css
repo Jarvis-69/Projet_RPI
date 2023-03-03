@@ -432,10 +432,10 @@ nav a:hover {
 #fourth_div_h1 {
     position: absolute;
     top: 75px;
-    left: 565px;
     font-size: 48px;
     height: 40px;
-    width: 750px;
+    width: 100%;
+    text-align: center;
 
     font-family: 'Insominia';
     font-style: normal;
@@ -447,11 +447,16 @@ nav a:hover {
     color: #000000;
 }
 
+#fourth_div_bigdiv {
+    
+}
+
 #fourth_div_div1 {
     position: absolute;
     width: 451px;
     height: 365.33px;
-    left: 331px;
+    /* left: 331px; */
+    left: 10%;
     top: 319px;
 }
 
@@ -500,7 +505,8 @@ nav a:hover {
     position: absolute;
     width: 550px;
     height: 600px;
-    left: 961px;
+    /* left: 961px; */
+    left: 50%;
     top: 267px;
 }
 
@@ -583,54 +589,6 @@ nav a:hover {
     color: #FFFFFF;
 }
 
-#fifth_div {
-    position: absolute;
-    width: 100%;
-    height: 410px;
-    top: 3750px;
-    background: #0F0C1F;
-}
-
-#fifth_div_div {
-    position: relative;
-    width: 1219px;
-    height: 300px;
-    top: 50px;
-    margin: 0 auto;
-}
-
-#fifth_div_img {
-    position: relative;
-    width: 308px;
-    height: 124px;
-    top: 55px;
-    float: right;
-}
-
-#fifth_div_div_left {
-    position: relative;
-    width: 261px;
-    top: 20px;
-}
-
-#footer_div_mid {
-    position: absolute;
-    width: 238px;
-    height: 275px;
-    left: 450px;
-    top: 20px ;
-}
-
-#adress_mail {
-    position: absolute;
-    top: 100px;
-    height: 50px;
-    width: 525px;
-
-    border-radius: 10px;
-    border-color: white;
-}
-
 #name {
     position: absolute;
     top: 200px;
@@ -649,6 +607,62 @@ nav a:hover {
 
     border-radius: 10px;
     border-color: white;
+}
+
+#adress_mail {
+    position: absolute;
+    top: 100px;
+    height: 50px;
+    width: 525px;
+
+    border-radius: 10px;
+    border-color: white;
+}
+
+#fifth_div {
+    position: absolute;
+    width: 100%;
+    height: 410px;
+    top: 3750px;
+    background: #0F0C1F;
+}
+
+#fifth_div_div {
+    position: relative;
+    width: 1219px;
+    height: 300px;
+    top: 50px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1220px) {
+    #fifth_div_div {
+        width : 100%;
+    }
+}
+
+#fifth_div_img {
+    position: relative;
+    width: 308px;
+    height: 124px;
+    top: 75px;
+    float: right;
+}
+
+#fifth_div_div_left {
+    position: relative;
+    width: 261px;
+    top: 20px;
+}
+
+#footer_div_mid {
+    position: absolute;
+    width: 238px;
+    height: 275px;
+    /* left: 450px; */
+    left: 37.5%;
+    top: 10px;
+    align-items: center;
 }
 
 #footer_txt_left {
