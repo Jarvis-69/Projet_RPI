@@ -448,27 +448,31 @@ nav a:hover {
 }
 
 #fourth_div_bigdiv {
-    
+    height: 600px;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: 250px;
+}
+
+@media screen and (max-width: 1220px) {
+    #fourth_div_bigdiv {
+        width : 100%;
+    }
 }
 
 #fourth_div_div1 {
     position: absolute;
-    width: 451px;
-    height: 365.33px;
-    /* left: 331px; */
-    left: 10%;
-    top: 319px;
-}
-
-#fourth_div_div1_top {
-    width: 100%;
-    height: 178.33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
 }
 
 #fourth_div_div1_top_h1 {
     position: absolute;
-    width: 100%;
-    height: 30px;
+    top: 75px;
 
     font-family: 'Insominia';
     font-style: normal;
@@ -482,9 +486,7 @@ nav a:hover {
 
 #fourth_div_div1_top_p {
     position: absolute;
-    width: 100%;
-    height: 100px;
-    top: 70px;
+    top: 25%;
 
     font-family: 'EuroStyle';
     font-style: normal;
@@ -497,23 +499,26 @@ nav a:hover {
 }
 
 #fourth_div_img {
-    width: 100%;
+    /* width: 100%; */
+    width: 450px;
     height: 177px;
+    position: absolute;
+    top: 300px;
 }
 
 #fourth_div_div2 {
     position: absolute;
-    width: 550px;
-    height: 600px;
-    /* left: 961px; */
     left: 50%;
-    top: 267px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
 }
 
 #fourth_div_div2_h1 {
     position: absolute;
-    width: 100%;
-    height: 40px;
+    bottom: 600px;
 
     font-family: 'Insominia';
     font-style: normal;
@@ -529,8 +534,10 @@ nav a:hover {
     position: absolute;
     width: 225px;
     height: 50px;
-    left: 150px;
+    left: 165px;
     top: 500px;
+    align-items: center;
+    margin: 0 auto;
 
     font-family: 'Insominia';
     color: white;
@@ -592,8 +599,9 @@ nav a:hover {
 #name {
     position: absolute;
     top: 200px;
+    left: 0%;
     height: 50px;
-    width: 525px;
+    width: 100%;
 
     border-radius: 10px;
     border-color: white;
@@ -602,8 +610,9 @@ nav a:hover {
 #message {
     position: absolute;
     top: 300px;
+    left: 0%;
     height: 150px;
-    width: 525px;
+    width: 100%;
 
     border-radius: 10px;
     border-color: white;
@@ -612,8 +621,9 @@ nav a:hover {
 #adress_mail {
     position: absolute;
     top: 100px;
+    left: 0%;
     height: 50px;
-    width: 525px;
+    width: 100%;
 
     border-radius: 10px;
     border-color: white;
