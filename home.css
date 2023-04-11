@@ -148,7 +148,7 @@ nav a:hover {
 
 #second_right {
     position: relative;
-    width: 600px;
+    width: 45%;
     height: 400px;
     top: 125px;
     float: right;
@@ -350,20 +350,12 @@ nav a:hover {
     color: #000000;
 }
 
-/* #fourth_div_bigdiv {
-    height: 600px;
-    width: 100%;
-    position: relative;
-    top: 250px;
-} */
-
 #fourth_div_div1 {
     position: relative;
     display: flex;
     float: left;
     justify-content: center;
     top: 200px;
-    /* width: 450px; */
     width: 45%;
     height: 600px;
 }
@@ -525,32 +517,27 @@ nav a:hover {
 
 #fifth_div {
     position: absolute;
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 410px;
     top: 3750px;
     background: #0F0C1F;
 }
 
-#fifth_div_div {
+#fifth_div_all {
     position: relative;
     width: 1219px;
     height: 300px;
     top: 50px;
-    margin: 0 auto;
-}
-
-@media screen and (max-width: 1220px) {
-    #fifth_div_div {
-        width : 100%;
-    }
 }
 
 #fifth_div_img {
     position: relative;
+    float: right;
     width: 308px;
     height: 124px;
     top: 75px;
-    float: right;
 }
 
 #fifth_div_div_left {
@@ -563,7 +550,6 @@ nav a:hover {
     position: absolute;
     width: 238px;
     height: 275px;
-    /* left: 450px; */
     left: 37.5%;
     top: 10px;
     align-items: center;
