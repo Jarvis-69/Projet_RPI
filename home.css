@@ -165,7 +165,7 @@ nav a:hover {
     position: relative;
     display: flex;
     width: 600px;
-    height: 650px;
+    height: 300px;
     /* left: 50%; */
     top: 125px;
     float: right;
