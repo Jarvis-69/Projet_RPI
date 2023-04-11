@@ -165,7 +165,7 @@ nav a:hover {
     position: relative;
     display: flex;
     width: 600px;
-    height: 300px;
+    height: 400px;
     /* left: 50%; */
     top: 125px;
     float: right;
@@ -197,51 +197,56 @@ nav a:hover {
 }
 
 #third_div {
-  position: absolute;
-  width: 100%;
-  height: 940px;
-  top: 1870px;
-  background: #FBDF5A;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 940px;
+    top: 1870px;
+    background: #FBDF5A;
 }
 
-#third_div_h1 {
+#third_div_all {
+    width: 900px;
+}
+
+#third_div_h1_top {
   font-family: 'Insominia';
-  position: absolute;
+  position: relative;
+  display: flex;
   top: 75px;
-  /* left: 641.5px; */
-  left: 37.5%;
+  margin-left: 150px;
   font-size: 48px;
   height: 50px;
   width: 620px;
 }
 
-#third_div_img {
+/* #third_div_img {
   position: absolute;
   top : 500px;
-  /* left: 150px; */
   left: 10%;
   height: 160px;
   width: 200px;
-}
+} */
 
 #third_div_button {
-  position: absolute;
-  width: 390px;
-  height: 50px;
-  /* left: 745px; */
-  left: 40%;
-  top: 800px;
+    position: absolute;
+    width: 390px;
+    height: 50px;
+    top: 800px;
 
-  font-family: 'Insominia';
-  color: white;
-  font-size: 30px;
-  text-align: center;
-  padding-top: 20px;
+    font-family: 'Insominia';
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 255px;
+    margin-right: 255px;
 
-  background: #F85242;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  filter: drop-shadow(0px 4px 4px #40E0AE);
+    background: #F85242;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px #40E0AE);
 }
 
 #third_div_div{
@@ -249,55 +254,36 @@ nav a:hover {
     width: 901px;
     height: 625px;
     /* left: 509px; */
-    left: 30%;
+    /* left: 30%; */
     top: 150px;
 }
 
-/* @media screen and (max-width: 1220px) {
-    #third_div_div {
-        width : 100%;
-    }
-} */
-
-#third_div12{
+#third_div_top{
     position: absolute;
     width: 100%;
     height: 50%;
 }
-#third_div34{
-    position: absolute;
-    top: 325px;
+#third_div_bottom{
+    position: relative;
+    top: 425px;
     width: 100%;
-    height: 50%;
+    height: 312.5px;
 }
 
-#third_div1{
+#third_div_left{
     position: absolute;
     width: 50%;
     height: 100%;
 }
 
-#third_div2{
+#third_div_right{
     position: absolute;
     width: 50%;
     height: 100%;
     left: 450.5px;
 }
 
-#third_div3{
-    position: absolute;
-    width: 50%;
-    height: 100%;
-}
-
-#third_div4{
-    position: absolute;
-    width: 50%;
-    height: 100%;
-    left: 450.5px;
-}
-
-#third_div1_numb {
+#third_div_numb {
     width: 150px;
     height: 150px;
 
@@ -308,7 +294,7 @@ nav a:hover {
     border-radius: 200px;
 }
 
-#third_div1_circle {
+#third_div_circle {
     font-family: 'Insominia';
     font-style: normal;
     font-weight: 400;
@@ -320,7 +306,7 @@ nav a:hover {
     color: #F85242;
 }
 
-#third_div1_h1{
+#third_div_h1{
     position: absolute;
     width: 100%;
     height: 40px;
@@ -336,55 +322,7 @@ nav a:hover {
     color: #000000;
 }
 
-#third_div2_h1{
-    position: absolute;
-    width: 100%;
-    height: 40px;
-    top: 160px;
-
-    font-family: 'Insominia';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 36px;
-    text-align: center;
-
-    color: #000000;
-}
-
-#third_div3_h1{
-    position: absolute;
-    width: 100%;
-    height: 40px;
-    top: 160px;
-    
-    font-family: 'Insominia';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 36px;
-    text-align: center;
-
-    color: #000000;
-}
-
-#third_div4_h1{
-    position: absolute;
-    width: 100%;
-    height: 40px;
-    top: 160px;
-
-    font-family: 'Insominia';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 36px;
-    text-align: center;
-
-    color: #000000;
-}
-
-#third_div1_p {
+#third_div_p {
     position: absolute;
     width: 100%;
     height: 102.5px;
@@ -401,53 +339,10 @@ nav a:hover {
     color: #000000;
 }
 
-#third_div2_p {
+#fourth_div_all {
     position: absolute;
-    width: 100%;
-    height: 102.5px;
-    top: 210px;
-
-    font-family: 'EuroStyle';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 20px;
-    text-align: center;
-
-    color: #000000;
-}
-
-#third_div3_p {
-    position: absolute;
-    width: 100%;
-    height: 102.5px;
-    top: 210px;
-
-    font-family: 'EuroStyle';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 20px;
-    text-align: center;
-
-    color: #000000;
-}
-
-#third_div4_p {
-    position: absolute;
-    width: 100%;
-    height: 102.5px;
-    left: 0px;
-    top: 210px;
-
-    font-family: 'EuroStyle';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 20px;
-    text-align: center;
-
-    color: #000000;
+    display: flex;
+    justify-content: center;
 }
 
 #fourth_div {
