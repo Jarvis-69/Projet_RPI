@@ -141,39 +141,42 @@ nav a:hover {
 
 #second_div_all {
     position: relative;
-    width: 1300px;
+    width: 1100px;
+    /* width: 90%; */
     height: 600px;
     top: 150px;
 }
 
 #second_right {
-    position: relative;
-    width: 45%;
+    position: absolute;
+    width: 550px;
     height: 400px;
     top: 125px;
-    float: right;
+    left: 550px;
+    /* float: right; */
 }
 
 #second_div_img {
     position: relative;
-    float: left;
+    top: 50px;
+    height: 500px;
+    width: 500px;
 }
 
-#second_div_h1
-{
+#second_div_h1 {
     height: 62px;
+    width: 550px;
     font-family: 'Insominia';
-    font-size: 46px;
+    font-size: 40px;
     color: #FBDF5A;
 }
 
-#second_div_p 
-{
+#second_div_p {
     position: absolute;
     top: 100px;
 
     color: white; 
-    width: 600px; 
+    width: 550px; 
     height: 250px;
     font-family: 'Insominia';
     font-size: 20px;
@@ -190,7 +193,7 @@ nav a:hover {
 }
 
 #third_div_all {
-    width: 900px;
+    width: 1100px;
 }
 
 #third_div_h1_top {
@@ -212,7 +215,7 @@ nav a:hover {
 
 #third_div_button {
     position: absolute;
-    width: 390px;
+    width: 400px;
     height: 50px;
     top: 800px;
 
@@ -221,8 +224,8 @@ nav a:hover {
     font-size: 30px;
     text-align: center;
     padding-top: 20px;
-    margin-left: 255px;
-    margin-right: 255px;
+    margin-left: 350px;
+    margin-right: 350px;
 
     background: #F85242;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -239,13 +242,13 @@ nav a:hover {
 
 #third_div_top {
     position: absolute;
-    width: 100%;
+    width: 1100px;
     height: 50%;
 }
 #third_div_bottom {
-    position: relative;
-    top: 425px;
-    width: 100%;
+    position: absolute;
+    top: 475px;
+    width: 1100px;
     height: 312.5px;
 }
 
@@ -259,7 +262,7 @@ nav a:hover {
     position: absolute;
     width: 50%;
     height: 100%;
-    left: 450.5px;
+    left: 550px;
 }
 
 #third_div_numb {
@@ -267,7 +270,7 @@ nav a:hover {
     height: 150px;
 
     position: absolute;
-    left: 150px;
+    left: 200px;
 
     background: #40E0AE;
     border-radius: 200px;
@@ -319,7 +322,7 @@ nav a:hover {
 }
 
 #fourth_div_all {
-    width: 1000px;
+    width: 1100px;
 }
 
 #fourth_div {
@@ -351,17 +354,17 @@ nav a:hover {
 }
 
 #fourth_div_div1 {
-    position: relative;
-    display: flex;
-    float: left;
+    position: absolute;
+    /* display: flex;
+    float: left; */
     justify-content: center;
     top: 200px;
-    width: 45%;
+    width: 450px;
     height: 600px;
 }
 
 #fourth_div_div1_top_h1 {
-    position: absolute;
+    position: relative;
     top: 75px;
 
     font-family: 'Insominia';
@@ -375,8 +378,8 @@ nav a:hover {
 }
 
 #fourth_div_div1_top_p {
-    position: absolute;
-    top: 25%;
+    position: relative;
+    top: 20%;
 
     font-family: 'EuroStyle';
     font-style: normal;
@@ -397,18 +400,15 @@ nav a:hover {
 
 #fourth_div_div2 {
     position: relative;
-    display: flex;
-    float: right;
-    justify-content: center;
-    align-items: center;
+    left: 600px;
     top: 200px;
-    width: 45%;
-    height: 600px;
+    width: 500px;
+    height: 650px;
 }
 
 #fourth_div_div2_h1 {
-    position: absolute;
-    top: 0%;
+    position: relative;
+    text-align: center;
 
     font-family: 'Insominia';
     font-style: normal;
@@ -420,16 +420,19 @@ nav a:hover {
 }
 
 #fourth_div_div2_a {
-    position: relative;
+    position: absolute;
     width: 225px;
     height: 50px;
-    top: 250px;
+    top: 500px;
+    justify-content: center;
     
     font-family: 'Insominia';
     color: white;
     font-size: 30px;
     text-align: center;
     padding-top: 20px;
+    margin-left: 137.5px;
+    margin-right: 137.5px;
 
     background: #F85242;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -526,8 +529,8 @@ nav a:hover {
 }
 
 #fifth_div_all {
-    position: relative;
-    width: 1219px;
+    position: absolute;
+    width: 1100px;
     height: 300px;
     top: 50px;
 }
