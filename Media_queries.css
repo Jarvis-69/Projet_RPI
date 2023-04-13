@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1200px) {
+    nav a {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-top: 25px;
+        padding-bottom: 15px;
+        margin-top: 3px;
+    }
+
+    #second_div_all {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+
+    #second_div_img {
+        position: absolute;
+        top: 0px;
+        height: 400px;
+        width: 400px;
+    }
+
+    #second_right {
+        position: relative;
+        text-align: center;
+        top: 450px;
+        left: 0px;
+        height: 200px;
+    }
+
+    #second_div_h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+    
+    #second_div_p {
+        width: 100%;
+        font-size: 15px;
+    }
+}
