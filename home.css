@@ -148,7 +148,7 @@ nav a:hover {
 #second_right {
     position: absolute;
     width: 550px;
-    height: 400px;
+    /* height: 400px; */
     top: 125px;
     left: 550px;
 }
@@ -161,7 +161,7 @@ nav a:hover {
 }
 
 #second_div_h1 {
-    height: 62px;
+    /* height: 62px; */
     width: 550px;
     font-family: 'Insominia';
     font-size: 40px;
@@ -174,7 +174,7 @@ nav a:hover {
 
     color: white; 
     width: 550px; 
-    height: 250px;
+    /* height: 250px; */
     font-family: 'Insominia';
     font-size: 20px;
 }
@@ -230,17 +230,18 @@ nav a:hover {
     filter: drop-shadow(0px 4px 4px #40E0AE);
 }
 
-#third_div_div {
+/* #third_div_div {
     position: absolute;
     width: 901px;
     height: 625px;
     top: 150px;
-}
+} */
 
 #third_div_top {
     position: absolute;
     width: 1100px;
     height: 50%;
+    top: 175px;
 }
 #third_div_bottom {
     position: absolute;
@@ -259,7 +260,7 @@ nav a:hover {
     position: absolute;
     width: 50%;
     height: 100%;
-    left: 550px;
+    left: 50%;
 }
 
 #third_div_numb {
