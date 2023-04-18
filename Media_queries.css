@@ -1,12 +1,22 @@
 @media only screen and (max-width: 1200px) {
     nav a {
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-left: 15px;
-        margin-right: 15px;
-        padding-top: 25px;
-        padding-bottom: 15px;
-        margin-top: 3px;
+
+    }
+
+    #game_space {
+        box-sizing: border-box;
+        /* position: absolute; */
+        top: 22.5px;
+        border-radius: 12px;
+        height: 55px;
+        width: 225px;
+        padding-top: 18px;
+    
+        background: #F85242;
+        color: white;
+        position: relative;
+        top: 20px;
+        filter: drop-shadow(0px 4px 4px #40E0AE);
     }
 
 
@@ -101,6 +111,8 @@
     
     #third_div_div {
         position: absolute;
+        display: flex;
+        justify-content: center;
         width: 901px;
         height: 625px;
         top: 150px;
@@ -120,11 +132,11 @@
         width: 50%;
         height: 100%;
     }
-/*     
+    
     #third_div_right{
         width: 50%;
         height: 100%;
-    } */
+    }
     
     #third_div_numb {
         width: 100px;
@@ -137,6 +149,7 @@
     }
     
     #third_div_circle {
+        position: absolute;
         font-family: 'Insominia';
         font-style: normal;
         font-weight: 400;
@@ -167,7 +180,7 @@
     
     #third_div_p {
         position: absolute;
-        width: 100%;
+        width: 90%;
         height: 102.5px;
         left: 0px;
         top: 210px;
