@@ -1,11 +1,6 @@
 @media only screen and (max-width: 1200px) {
-    nav a {
-
-    }
-
     #game_space {
         box-sizing: border-box;
-        /* position: absolute; */
         top: 22.5px;
         border-radius: 12px;
         height: 55px;
@@ -18,9 +13,6 @@
         top: 20px;
         filter: drop-shadow(0px 4px 4px #40E0AE);
     }
-
-
-
 
 
 
@@ -63,31 +55,21 @@
 
 
 
-
-
-
-
-    
     #third_div_all {
         width: 90%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
     }
     
     #third_div_h1_top {
-      font-family: 'Insominia';
-      position: relative;
-      text-align: center;
-      top: 75px;
-      font-size: 48px;
-      height: 50px;
+        font-family: 'Insominia';
+        position: relative;
+        text-align: center;
+        top: 75px;
+        font-size: 48px;
+        height: 50px;
     }
-    
-    /* #third_div_img {
-      position: absolute;
-      top : 500px;
-      left: 10%;
-      height: 160px;
-      width: 200px;
-    } */
     
     #third_div_button {
         position: absolute;
@@ -100,8 +82,6 @@
         font-size: 30px;
         text-align: center;
         padding-top: 20px;
-        margin-left: 22.5%;
-        margin-right: 22.5%;
     
         background: #F85242;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -110,9 +90,6 @@
     }
     
     #third_div_div {
-        position: absolute;
-        display: flex;
-        justify-content: center;
         width: 901px;
         height: 625px;
         top: 150px;
@@ -121,43 +98,50 @@
     #third_div_top {
         height: 400px;
         width: 90%;
-        top: 150px;
+        top: 125px;
     }
+
     #third_div_bottom {
         height: 400px;
         width: 90%;
+        top: 425px;
     }
     
     #third_div_left{
+        position: absolute;
+        display: flex;
+        justify-content: center;
         width: 50%;
         height: 100%;
     }
     
     #third_div_right{
+        position: absolute;
+        display: flex;
+        justify-content: center;
         width: 50%;
         height: 100%;
     }
     
     #third_div_numb {
+        position: relative;
         width: 100px;
         height: 100px;
         top: 50px;
-        left: 40%;
+        left: 0%;
     
         background: #40E0AE;
         border-radius: 200px;
     }
     
     #third_div_circle {
-        position: absolute;
+        position: relative;
         font-family: 'Insominia';
         font-style: normal;
         font-weight: 400;
         font-size: 75px;
         line-height: 100px;
-        text-align: center;
         padding-top: 5px;
-        width: 100%;
                                 
         color: #F85242;
     }
@@ -181,8 +165,9 @@
     #third_div_p {
         position: absolute;
         width: 90%;
+        left: 5%;
+        right: 5%;
         height: 102.5px;
-        left: 0px;
         top: 210px;
     
         font-family: 'EuroStyle';
@@ -194,9 +179,6 @@
     
         color: #000000;
     }
-
-
-
 
 
 
@@ -251,8 +233,6 @@
         position: absolute;
         width: 250px;
         height: 100px;
-        /* top: 150px;
-        left: 25%; */
     }
     
     #fourth_div_div2 {
@@ -345,10 +325,7 @@
 
 
 
-
-
-
-
+    
     #fifth_div_all {
         position: absolute;
         width: 90%;
