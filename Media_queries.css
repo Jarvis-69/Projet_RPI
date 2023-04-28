@@ -199,7 +199,7 @@
     #fourth_div_div1 {
         position: absolute;
         display: flex;
-        justify-content: center;
+        justify-content: left;
         left: 0px;
         width: 50%;
         height: 75%;
@@ -209,19 +209,21 @@
     #fourth_div_div1_top_h1 {
         position: absolute;
         top: 75px;
+        width: 100%;
     
         font-family: 'Insominia';
         font-style: normal;
         font-weight: 400;
         font-size: 40px;
         line-height: 40px;
-        text-align: center;
+        text-align: left;
     
         color: #F85242;
     }
     
     #fourth_div_div1_top_p {
         position: absolute;
+        width: 100%;
         top: 150px;
     
         font-family: 'EuroStyle';
@@ -229,13 +231,13 @@
         font-weight: 400;
         font-size: 24px;
         line-height: 20px;
-        text-align: center;
+        text-align: left    ;
     
         color: #000000;
     }
 
     #fourth_div_img {
-        position: absolute;
+        position: relative;
         width: 250px;
         height: 100px;
     }
