@@ -1,6 +1,5 @@
 html {
     scroll-behavior: smooth;
-    margin: 0;
 }
 
 * {
@@ -17,116 +16,116 @@ html {
     src: url('insominia/Insominia.ttf');
 }
 
-a {
-    text-decoration: none;
-}  
-
-nav {
-    position: absolute;
+.first {
     width: 100%;
-    height: 100px;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(BG_1.png);
+    background-size: cover;
+    background-position: center;
+}
 
-    background-color: #0F0C1F;
+.nav {
+    display: flex;
+    width: 85%;
+    padding: 35px 0;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+
     font-family: 'Insominia';
     font-size: 20px;
-    z-index: 999;
 }
-  
-nav li {
-    height: 100px;
-    float: right;
+
+.logo {
+    width: 225px;
+    cursor: pointer;
 }
-  
-nav a {
-    display: block;
-    color: #40E0AE;
-    text-align: center;
-    margin-left: 25px;
-    margin-right: 25px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.nav ul li a{
     text-decoration: none;
-}
-  
-nav a:hover {
-    background-color: #111;
-}
-
-#game_space {
-    box-sizing: border-box;
-    border-radius: 12px;
-    height: 55px;
-    width: 225px;
-    padding: 15px;
-
-    background: #F85242;
-    color: white;
-    position: relative;
-    top: 20px;
-    padding-top: 18px;
-    filter: drop-shadow(0px 4px 4px #40E0AE);
+    color: #40E0AE;
+    text-transform: uppercase;
+    font-size: 24px;
 }
 
-#logo {
+.nav ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #40E0AE;
     position: absolute;
-    width: 225px;
-    height: 90px;
-    left: 10px;
-    top: 6px;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
 }
 
-#first_div {
-    position: absolute;
-    display: flex;
-    justify-content: center;
+.nav ul li:hover:after{
     width: 100%;
-    height: 831px;
-    top: 100px;
-    background: url(BG_1.png);
-    background-position-x: -1px; 
 }
 
-#first_logo {
-    position: relative;
-    width: 200px;
-    height: 350px;
-    align-items: center;
-    margin-bottom: 75px;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-#first_button {
-    position: absolute;
+.content{
     width: 100%;
-    height: 50px;
-
-    font-family: 'Insominia';
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 20px;
-
-    background: #F85242;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    filter: drop-shadow(0px 4px 4px #40E0AE);
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    text-align: center;    
 }
 
-#first_all {
+.first_button{
     position: relative;
-    top: 171px;
     width: 390px;
-    height: 550px;
+    padding: 25px 0;
+    text-align: center;
+    margin: 100px 10px;
+    border-radius: 90px;
+    font-size: 30px;
+    border: 2px solid #F85242;
+    background: transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Insominia';
+    overflow: hidden;
 }
+
+span{
+    background: #F85242;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.first_button:hover span {
+    width: 100%;
+}
+
+.first_button:hover{
+    border: none;
+}
+
+
+
+
+
 
 #second_div {
     position: absolute;
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 940px;
-    top : 930px;
+    height: 933px;
+    top : 933px;
     background: #0F0C1F;
 }
 
