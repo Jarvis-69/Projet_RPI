@@ -71,44 +71,23 @@ html {
 }
 
 .nav button {
-        position: relative;
-        width: 225px;
-        padding: 10px 0;
-        text-align: center;
-        /* margin: 100px 10px; */
-        border-radius: 90px;
-        font-size: 24px;
-        border: 2px solid #F85242;
-        background: transparent;
-        color: #FFFFFF;
-        cursor: pointer;
-        font-family: 'Insominia';
-        text-transform: uppercase;
-        overflow: hidden;
-}
-
-.nav button:hover span {
-    width: 100%;
-}
-
-.nav button:hover{
-    border: none;
+    width: 175px;
+    padding: 10px;
+    margin: 0px;
+    font-size: 24px;
 }
 
 .content{
     width: 100%;
     position: absolute;
-    top: 60vh;
-    transform: translateY(-50%);
     text-align: center;    
 }
 
-.first_button{
+.button{
     position: relative;
     width: 390px;
-    padding: 25px 0;
-    text-align: center;
-    margin: 100px 10px;
+    padding: 25px;
+    margin: 50px;
     border-radius: 90px;
     font-size: 30px;
     border: 2px solid #F85242;
@@ -117,6 +96,7 @@ html {
     cursor: pointer;
     font-family: 'Insominia';
     overflow: hidden;
+    z-index: 1;
 }
 
 span{
@@ -131,35 +111,32 @@ span{
     transition: 0.5s;
 }
 
-.first_button:hover span {
+.button:hover span {
     width: 100%;
 }
 
-.first_button:hover{
+.button:hover{
     border: none;
 }
 
 /* ----------------------------------------------------------- */
 
 .second {
+    position: relative;
     width: 100%;
     height: 100vh;
-    top : 100vh;
     background: #0F0C1F;
 }
 
 .second_content {
-    /* position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 100%;
-    transform: translateY(-50%);
-    text-align: center; 
-    top: 150vh; */
-
-    /* position: absolute; */
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translateY(45%);
 }
 
 .second_img {
@@ -186,65 +163,51 @@ span{
 
 /* ----------------------------------------------------------- */
 
-#third_div {
-    position: absolute;
-    display: flex;
-    justify-content: center;
+.third {
+    position: relative;
     width: 100%;
-    height: 940px;
-    top: 1870px;
+    height: 100vh;
     background: #FBDF5A;
 }
 
-#third_div_all {
-    width: 1100px;
+.third_content {
     position: absolute;
-    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100vh;
+    /* display: flex; */
     justify-content: center;
+    /* align-items: center; */
+    text-align: center;
 }
 
-#third_div_h1_top {
+.third_title {
     font-family: 'Insominia';
-    position: relative;
     text-align: center;
-    top: 75px;
+    position: relative;
+    top: 60px;
     font-size: 48px;
     height: 50px;
 }
 
-#third_div_button {
-    position: absolute;
-    width: 400px;
-    height: 50px;
-    top: 800px;
-
-    font-family: 'Insominia';
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 20px;
-
-    background: #F85242;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    filter: drop-shadow(0px 4px 4px #40E0AE);
-}
-
-#third_div_top {
-    position: absolute;
+/* #third_div_top {
+    position: relative;
     width: 1100px;
     height: 50%;
     top: 175px;
 }
 
 #third_div_bottom {
-    position: absolute;
+    position: relative;
     top: 475px;
     width: 1100px;
     height: 312.5px;
-}
+} */
 
-#third_div_left{
+
+/* #third_div_left{
     position: absolute;
     width: 50%;
     height: 100%;
@@ -255,12 +218,11 @@ span{
     width: 50%;
     height: 100%;
     left: 50%;
-}
+} */
 
-#third_div_numb {
+.third_circle {
     width: 150px;
     height: 150px;
-
     position: absolute;
     left: 200px;
 
@@ -268,7 +230,7 @@ span{
     border-radius: 200px;
 }
 
-#third_div_circle {
+.third_numb {
     font-family: 'Insominia';
     font-style: normal;
     font-weight: 400;
@@ -280,7 +242,7 @@ span{
     color: #F85242;
 }
 
-#third_div_h1{
+.third_h1{
     position: absolute;
     width: 100%;
     height: 40px;
@@ -296,7 +258,7 @@ span{
     color: #000000;
 }
 
-#third_div_p {
+.third_p {
     position: absolute;
     width: 100%;
     height: 102.5px;
@@ -311,6 +273,8 @@ span{
 
     color: #000000;
 }
+
+/* ----------------------------------------------------------- */
 
 #fourth_div_all {
     width: 1100px;
