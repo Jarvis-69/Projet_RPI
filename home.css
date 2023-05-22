@@ -75,19 +75,27 @@ html {
     padding: 10px;
     margin: 0px;
     font-size: 24px;
+    text-transform: uppercase;
 }
 
 .content{
-    width: 100%;
     position: absolute;
-    text-align: center;    
+    width: 100%;
+    text-align: center;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+.content_logo {
+    padding: 50px;
 }
 
 .button{
     position: relative;
     width: 390px;
     padding: 25px;
-    margin: 50px;
+    /* margin: 50px; */
     border-radius: 90px;
     font-size: 30px;
     border: 2px solid #F85242;
@@ -172,12 +180,10 @@ span{
 
 .third_content {
     position: absolute;
-    top: 60px;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -189,66 +195,27 @@ span{
     font-family: 'Insominia';
     text-align: center;
     position: relative;
-    /* top: 60px; */
-    padding: 50px;
+    padding-top: 50px;
     font-size: 48px;
     height: 50px;
 }
 
-.top_div,
-.bottom_div {
-  width: 200px;
-  height: 50px;
-  background-color: pink;
-  margin-bottom: 10px;
+.left_div,
+.right_div {
+  width: 33%;
+  height: 33%;
+  padding: 20px;
 }
 
-.center-row {
+.center_div {
     display: flex;
     justify-content: center;
 }
-  
-.centered-div {
-    width: 150px;
-    height: 150px;
-    background-color: lightblue;
-    margin: 10px;
-}
-
-/* #third_div_top {
-    position: relative;
-    width: 1100px;
-    height: 50%;
-    top: 175px;
-}
-
-#third_div_bottom {
-    position: relative;
-    top: 475px;
-    width: 1100px;
-    height: 312.5px;
-} */
-
-
-/* #third_div_left{
-    position: absolute;
-    width: 50%;
-    height: 100%;
-}
-
-#third_div_right{
-    position: absolute;
-    width: 50%;
-    height: 100%;
-    left: 50%;
-} */
 
 .third_circle {
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    left: 200px;
-
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
     background: #40E0AE;
     border-radius: 200px;
 }
@@ -257,19 +224,17 @@ span{
     font-family: 'Insominia';
     font-style: normal;
     font-weight: 400;
-    font-size: 128px;
-    line-height: 129px;
+    font-size: 115px;
+    line-height: 150px;
     text-align: center;
-    padding-top: 15px;
-                            
     color: #F85242;
 }
 
 .third_h1{
-    position: absolute;
     width: 100%;
-    height: 40px;
-    top: 160px;
+    height: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
     font-family: 'Insominia';
     font-style: normal;
@@ -277,45 +242,56 @@ span{
     font-size: 26px;
     line-height: 36px;
     text-align: center;
-
     color: #000000;
 }
 
 .third_p {
-    position: absolute;
     width: 100%;
     height: 102.5px;
-    top: 210px;
-
     font-family: 'EuroStyle';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 20px;
     text-align: center;
-
     color: #000000;
+}
+
+.third_button {
+    margin-top: 20px;
+}
+
+.third button {
+    color: #F85242;
+}
+
+.third button:hover {
+    color: #FFFFFF;
 }
 
 /* ----------------------------------------------------------- */
 
-#fourth_div_all {
-    width: 1100px;
-}
-
-#fourth_div {
-    position: absolute;
-    display: flex;
-    justify-content: center;
+.fourth {
+    position: relative;
     width: 100%;
-    height: 940px;
-    top: 2810px;
+    height: 100vh;
     background: #40E0AE;
 }
 
-#fourth_div_h1 {
+#fourth_content {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth_title {
     position: relative;
-    top: 75px;
+    padding-top: 75px;
     font-size: 48px;
     height: 40px;
     width: 100%;
@@ -330,15 +306,15 @@ span{
     color: #000000;
 }
 
-#fourth_div_div1 {
-    position: absolute;
+.fourth_left {
+    /* position: absolute;
     justify-content: center;
-    top: 200px;
-    width: 450px;
-    height: 600px;
+    top: 200px; */
+    width: 33%;
+    /* height: 33%; */
 }
 
-#fourth_div_div1_top_h1 {
+.fourth_left_h1 {
     position: relative;
     top: 75px;
 
@@ -352,8 +328,8 @@ span{
     color: #F85242;
 }
 
-#fourth_div_div1_top_p {
-    position: relative;
+.fourth_left_p {
+    /* position: relative; */
     top: 20%;
 
     font-family: 'EuroStyle';
@@ -366,22 +342,22 @@ span{
     color: #000000;
 }
 
-#fourth_div_img {
+.fourth_img {
     width: 450px;
     height: 177px;
     position: absolute;
     top: 300px;
 }
 
-#fourth_div_div2 {
-    position: relative;
-    left: 600px;
-    top: 200px;
+.fourth_right {
+    /* position: relative; */
+    /* left: 600px; */
+    /* top: 200px; */
     width: 500px;
     height: 650px;
 }
 
-#fourth_div_div2_h1 {
+.fourth_right_h1 {
     position: relative;
     text-align: center;
 
@@ -394,7 +370,7 @@ span{
     color: #000000;
 }
 
-#fourth_div_div2_a {
+#fourth_right_a {
     position: absolute;
     width: 225px;
     height: 50px;

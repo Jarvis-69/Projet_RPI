@@ -8,22 +8,22 @@
     <link rel="icon" href="logo_text.png">
 </head>
 <body>
-    <div class="first">
+    <div class="first" id="first">
         <div class="nav">
             <img class="logo" src="logo.png">
             <ul>
                 <!-- <li><a class="game_space" href="connexion.html">Game Space</a></li> -->
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Histoire</a></li>
-                <li><a href="#">Telecharger</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#first">Accueil</a></li>
+                <li><a href="#second">Histoire</a></li>
+                <li><a href="#third">Telecharger</a></li>
+                <li><a href="#fourth">Contact</a></li>
                 <a href="connexion.html">
                     <button type="button" class="button"><span></span>Game Space</button>
                 </a>
             </ul>
         </div>
         <div class="content">
-            <img src="logo_text.png">
+            <img src="logo_text.png" class="content_logo">
             <div>
                 <a href="#second">
                     <button class="button" type="button" ><span></span>Decouvrir</button>
@@ -47,16 +47,15 @@
     <div class="third" id="third">
         <h1 class="third_title">4 Etapes pour demarrer la bataille</h1>
         <div class="third_content">
-            <div class="center-row">
-            <div class="centered-div">
-                <div class="top_div">
-                    <div class="third_circle">
-                        <h1 class="third_numb">1</h1>
-                    </div>
+            <div class="center_div">
+                <div class="left_div">
+                        <div class="third_circle">
+                            <h1 class="third_numb">1</h1>
+                        </div>
                     <h1 class="third_h1">CREER UN COMPTE</h1>
                     <p class="third_p">Cras feugiat sem vitae nisi hendrerit, eu hendrerit enim semper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In a cursus metus.</p>
                 </div>
-                <div class="top_div">
+                <div class="right_div">
                     <div class="third_circle">
                         <h1 class="third_numb">2</h1>
                     </div>
@@ -64,81 +63,65 @@
                     <p class="third_p">Cras feugiat sem vitae nisi hendrerit, eu hendrerit enim semper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In a cursus metus.</p>
                 </div>
             </div>
-            <!-- <div class="center-row">
-                <div class="centered-div">Div centrée 1</div>
-                <div class="centered-div"></div>
-              </div> -->
-            <div class="centered-div">
-                <div class="bottom_div">
+            <div class="center_div">
+                <div class="left_div">
                     <div class="third_circle">
                         <h1 class="third_numb">3</h1>
                     </div>
                     <h1 class="third_h1">CHOISISSEZ VOTRE ARTILLERIE</h1>
                     <p class="third_p">Cras feugiat sem vitae nisi hendrerit, eu hendrerit enim semper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In a cursus metus.</p>
                 </div>
-                <div class="bottom_div">
+                <div class="right_div">
                     <div class="third_circle">
                         <h1 class="third_numb">4</h1>
                     </div>
                     <h1 class="third_h1">DEMARREZ</h1>
                     <p class="third_p">Cras feugiat sem vitae nisi hendrerit, eu hendrerit enim semper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In a cursus metus.</p>
                 </div>
-            </div>              
             </div>
-            <a href="inscription.html">
-                <button class="button" type="button"><span></span>Rejoindre</button>
-            </a>
+            <div class="third_button">
+                <a href="inscription.html">
+                    <button class="button" type="button"><span></span>Rejoindre</button>
+                </a>    
+            </div>         
         </div>
     </div>
-
-
-
-        <div id="fourth_div">
-            <div id="fourth_div_all">
-                <h1 id="fourth_div_h1">
-                    Une question ? Contactez l’EQUIPE !
-                </h1>
-                <div id="fourth_div_div1">
-                    <h1 id="fourth_div_div1_top_h1">
-                        No Stairs to Heaven
-                    </h1>
-                    <p id="fourth_div_div1_top_p">
-                        26 Avenue Tony Garnier <br>
-                        69007 Lyon <br><br>
-                        contact@nostairstoheaven.fun
-                    </p>
-                    <img id="fourth_div_img" src="fourth_div_img.png">
-                </div>
-                <div id="fourth_div_div2">
-                    <h1 id="fourth_div_div2_h1">
-                        Contact en ligne
-                    </h1>
-                    <a id="fourth_div_div2_a">
-                        Envoyer
-                    </a>
-                    <form method="get">
-                        <div>
-                            <a id="fourth_div_div2_a1">
-                                Adresse mail
-                            </a>
-                            <input type="text" id="adress_mail">
-                        </div>
-                        <div>
-                            <a id="fourth_div_div2_a2">
-                                Prenom - Nom - Pseudo
-                            </a>
-                            <input type="text" id="name">
-                        </div>
-                        <div>
-                            <a id="fourth_div_div2_a3">
-                                Message
-                            </a>
-                            <input type="text" id="message">
-                        </div>
-                    </form>
-                </div>
+    <div class="fourth" id="fourth">
+        <div class="fourth_content">
+            <h1 class="fourth_title">
+                Une question ? Contactez l’EQUIPE !
+            </h1>
+            <div class="fourth_left">
+                <h1 class="fourth_left_h1">No Stairs to Heaven</h1>
+                <p class="fourth_left_p">26 Avenue Tony Garnier<br>69007 Lyon<br><br>contact@nostairstoheaven.fun</p>
+                <img class="fourth_img" src="fourth_div_img.png">
+            </div>
+            <div class="fourth_right">
+                <h1 class="fourth_right_h1">Contact en ligne</h1>
+                <a class="fourth_right_a">Envoyer</a>
+                <!-- <form method="get">
+                    <div>
+                        <a id="fourth_div_div2_a1">
+                            Adresse mail
+                        </a>
+                        <input type="text" id="adress_mail">
+                    </div>
+                    <div>
+                        <a id="fourth_div_div2_a2">
+                            Prenom - Nom - Pseudo
+                        </a>
+                        <input type="text" id="name">
+                    </div>
+                    <div>
+                        <a id="fourth_div_div2_a3">
+                            Message
+                        </a>
+                        <input type="text" id="message">
+                    </div>
+                </form> -->
             </div>
         </div>
+    </div>
         <div id="fifth_div">
             <div id="fifth_div_all">
                 <div id="fifth_div_div_left">
