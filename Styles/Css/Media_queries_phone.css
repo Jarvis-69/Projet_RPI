@@ -1,356 +1,190 @@
-@media only screen and (max-width: 900px) {
-    #game_space {
-        box-sizing: border-box;
-        top: 22.5px;
-        border-radius: 12px;
-        height: 55px;
-        width: 225px;
-        padding-top: 18px;
+@media only screen and (max-width: 1024px) {
     
-        background: #F85242;
-        color: white;
-        position: relative;
-        top: 20px;
-        filter: drop-shadow(0px 4px 4px #40E0AE);
+    .content{
+        top: 60%;
+    }
+    
+    .content img {
+        height: 60%;
+        width: auto;
+        padding: 10%;
+        max-height: 750px;
     }
 
-    #nav_list {
+    .button {
+        width: 50%;
+        height: 10%;
+        padding: 10px;
+        font-size: 52px;
+        /* margin-top: 33%; */
+    }
+
+    .histoire div {
+        height: 85%;
+    }
+
+    .histoire img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .histoire a {
+        margin-left: 0%;
+    }
+
+    /* .histoire h1 {
+        font-size: 42px;
+        margin-bottom: 30px;
+    } */
+
+    .histoire p {
+        font-size: 42px;
+        color: white;
+    }
+
+    /* ----------------------------------------------------------- */
+
+    .telecharger_title {
+        padding-top: 10%;
+    }
+
+    .center_div {
         display: grid;
-        position: absolute;
+    }
+
+    .left_div,
+    .right_div {
         width: 100%;
-        top: 75px;
-        left: 0px;
-        transition: .6s;
-
     }
 
-    #second_div_all {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        width: 90%;
-        height: 90%;
-        top: 50px;
-    }
-
-    #second_div_img {
-        position: absolute;
-        top: 0px;
-        height: 450px;
-        width: 450px;
-    }
-
-    #second_right {
-        position: relative;
-        text-align: center;
-        top: 500px;
-        left: 0px;
-        height: 200px;
-    }
-
-    #second_div_h1 {
-        width: 100%;
-        font-size: 36px;
-    }
-    
-    #second_div_p {
-        width: 100%;
-        font-size: 18px;
-        top: 75px;
-    }
-
-
-
-
-    #third_div_all {
-        width: 90%;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-    }
-    
-    #third_div_h1_top {
-        font-family: 'Insominia';
-        position: relative;
-        text-align: center;
-        top: 75px;
-        font-size: 48px;
-        height: 50px;
-    }
-    
-    #third_div_button {
-        position: absolute;
-        width: 400px;
-        height: 50px;
-        top: 800px;
-    
-        font-family: 'Insominia';
-        color: white;
-        font-size: 30px;
-        text-align: center;
-        padding-top: 20px;
-    
-        background: #F85242;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 10px;
-        filter: drop-shadow(0px 4px 4px #40E0AE);
-    }
-    
-    #third_div_div {
-        width: 901px;
-        height: 625px;
-        top: 150px;
-    }
-    
-    #third_div_top {
-        height: 400px;
-        width: 90%;
-        top: 125px;
-    }
-
-    #third_div_bottom {
-        height: 400px;
-        width: 90%;
-        top: 425px;
-    }
-    
-    #third_div_left{
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        width: 50%;
-        height: 100%;
-    }
-    
-    #third_div_right{
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        width: 50%;
-        height: 100%;
-    }
-    
-    #third_div_numb {
-        position: relative;
-        width: 100px;
-        height: 100px;
-        top: 50px;
-        left: 0%;
-    
+    .telecharger_circle {
+        width: 185px;
+        height: 185px;
+        margin: 0 auto;
         background: #40E0AE;
         border-radius: 200px;
     }
-    
-    #third_div_circle {
-        position: relative;
+
+    .telecharger h3 {
         font-family: 'Insominia';
         font-style: normal;
         font-weight: 400;
-        font-size: 75px;
-        line-height: 100px;
-        padding-top: 5px;
-                                
+        font-size: 185px;
+        line-height: 195px;
+        text-align: center;
         color: #F85242;
     }
-    
-    #third_div_h1{
-        position: absolute;
-        width: 100%;
-        height: 40px;
-        top: 160px;
+
+    .telecharger h2 {
+        padding-top: 10px;
+        /* padding-bottom: 5px; */
     
         font-family: 'Insominia';
         font-style: normal;
         font-weight: 400;
-        font-size: 26px;
-        line-height: 36px;
+        font-size: 52px;
+        line-height: 54px;
         text-align: center;
-    
         color: #000000;
     }
-    
-    #third_div_p {
-        position: absolute;
-        width: 90%;
-        left: 5%;
-        right: 5%;
-        height: 102.5px;
-        top: 210px;
-    
+
+    .telecharger p {
         font-family: 'EuroStyle';
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
-        line-height: 20px;
+        font-size: 48px;
         text-align: center;
-    
         color: #000000;
     }
 
-
-
-
-    #fourth_div_all {
-        width: 90%;
-        height: 100%;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-    }
-
-    #fourth_div_div1 {
-        position: absolute;
-        display: flex;
-        justify-content: left;
-        left: 0px;
-        width: 50%;
-        height: 75%;
-        top: 250px;
-    }
-
-    #fourth_div_div1_top_h1 {
-        position: absolute;
-        top: 75px;
+    .telecharger_button {
+        margin-top: 20px;
         width: 100%;
-    
-        font-family: 'Insominia';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 40px;
-        line-height: 40px;
-        text-align: left;
-    
-        color: #F85242;
     }
     
-    #fourth_div_div1_top_p {
-        position: absolute;
-        width: 100%;
-        top: 150px;
-    
-        font-family: 'EuroStyle';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 20px;
-        text-align: left    ;
-    
-        color: #000000;
-    }
+    /* ----------------------------------------------------------- */
 
-    #fourth_div_img {
-        position: relative;
-        width: 250px;
-        height: 100px;
-    }
-    
-    #fourth_div_div2 {
+    .contact_content {
         position: absolute;
-        display: flex;
-        justify-content: center;
-        top: 200px;
-        width: 50%;
-        height: 75%;
+        top: 57.5%;
         left: 50%;
-    }
-
-    #fourth_div_div2_h1 {
-        position: relative;
-        text-align: center;
-    
-        font-family: 'Insominia';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 40px;
-        line-height: 40px;
-    
-        color: #000000;
-    }
-    
-    #fourth_div_div2_a {
-        position: absolute;
-        width: 225px;
-        height: 50px;
-        top: 500px;
-        
-        font-family: 'Insominia';
-        color: white;
-        font-size: 30px;
-        text-align: center;
-        padding-top: 20px;
-        margin-left: 0px;
-        margin-right: 0px;
-    
-        background: #F85242;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 10px;
-        filter: drop-shadow(0px 4px 4px #40E0AE);
-    }
-    
-    #fourth_div_div2_a1 {
-        position: absolute;
-        left: 25px;
-        top: 75px;
-    
-        font-family: 'EuroStyle';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 20px;
-        text-align: justify;
-    
-        color: #FFFFFF;
-    }
-    
-    #fourth_div_div2_a2 {
-        position: absolute;
-        left: 25px;
-        top: 175px;
-    
-        font-family: 'EuroStyle';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 20px;
-        text-align: justify;
-    
-        color: #FFFFFF;
-    }
-    
-    #fourth_div_div2_a3 {
-        position: absolute;
-        left: 25px;
-        top: 275px;
-    
-        font-family: 'EuroStyle';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 20px;
-        text-align: justify;
-    
-        color: #FFFFFF;
-    }
-
-
-
-    
-    #fifth_div_all {
-        position: absolute;
-        width: 90%;
-    }
-
-    #footer_div_mid {
-        position: absolute;
-        width: 238px;
-        height: 275px;
-        top: 10px;
+        transform: translate(-50%, -50%);
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
 
-    #fifth_div_img {
-        width: 250px;
-        height: 100px;
-        top: 75px;
+    .contact h1 {
+        position: relative;
+        padding-top: 10%;
+        font-size: 48px;
+        font-family: 'Insominia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+    
+        color: #000000;
+    }
+    
+    /* ----------------------------------------------------------- */
+
+    .footer_content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .histoire div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 85%;
+        max-height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .histoire img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .histoire a {
+        height: 50%;
+        /* max-height: 50vh; */
+        /* margin: 0 auto; */
+    }
+
+    .histoire h1 {
+        font-size: 26px;
+        margin-bottom: 10px;
     }
 }
