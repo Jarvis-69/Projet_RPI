@@ -16,7 +16,7 @@ html {
     src: url('../Font/insominia/Insominia.ttf');
 }
 
-.first {
+.accueil {
     width: 100%;
     height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(../Images/BG_1.png);
@@ -36,7 +36,7 @@ html {
     font-size: 20px;
 }
 
-.first img {
+.accueil img {
     width: 225px;
     cursor: pointer;
 }
@@ -128,14 +128,14 @@ span{
 
 /* ----------------------------------------------------------- */
 
-.second {
+.histoire {
     position: relative;
     width: 100%;
     height: 100vh;
     background: #0F0C1F;
 }
 
-.second div {
+.histoire div {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -146,23 +146,23 @@ span{
     align-items: center;
 }
 
-.second img {
+.histoire img {
     height: 500px;
     width: 500px;
 }
 
-.second a {
+.histoire a {
     font-family: 'Insominia';
     margin-left: 2.5%;
 }
 
-.second h1 {
+.histoire h1 {
     font-size: 40px;
     color: #FBDF5A;
     margin-bottom: 30px;
 }
 
-.second p {
+.histoire p {
     font-size: 20px;
     color: white;
     width: 550px;
@@ -171,16 +171,16 @@ span{
 /* ----------------------------------------------------------- */
     /* A Revoir pour le responsive */
 
-.third {
+.telecharger {
     position: relative;
     width: 100%;
     height: 100vh;
     background: #FBDF5A;
 }
 
-.third_content {
+.telecharger_content {
     position: absolute;
-    top: 52.5%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -191,7 +191,7 @@ span{
     text-align: center;
 }
 
-.third_title {
+.telecharger_title {
     font-family: 'Insominia';
     text-align: center;
     position: relative;
@@ -211,7 +211,7 @@ span{
     justify-content: center;
 }
 
-.third_circle {
+.telecharger_circle {
     width: 85px;
     height: 85px;
     margin: 0 auto;
@@ -219,7 +219,7 @@ span{
     border-radius: 200px;
 }
 
-.third h3 {
+.telecharger h3 {
     font-family: 'Insominia';
     font-style: normal;
     font-weight: 400;
@@ -229,7 +229,7 @@ span{
     color: #F85242;
 }
 
-.third h2 {
+.telecharger h2 {
     width: 100%;
     height: 35px;
     padding-top: 10px;
@@ -244,7 +244,7 @@ span{
     color: #000000;
 }
 
-.third p {
+.telecharger p {
     width: 100%;
     height: 85px;
     font-family: 'EuroStyle';
@@ -255,28 +255,28 @@ span{
     color: #000000;
 }
 
-.third_button {
+.telecharger_button {
     margin-top: 20px;
 }
 
-.third button {
+.telecharger button {
     color: #F85242;
 }
 
-.third button:hover {
+.telecharger button:hover {
     color: #FFFFFF;
 }
 
 /* ----------------------------------------------------------- */
 
-.fourth {
+.contact {
     position: relative;
     width: 100%;
     height: 100vh;
     background: #40E0AE;
 }
 
-.fourth_content {
+.contact_content {
     position: absolute;
     top: 55%;
     left: 50%;
@@ -287,7 +287,7 @@ span{
     align-items: center;
 }
 
-.fourth h1 {
+.contact h1 {
     position: relative;
     padding-top: 75px;
     font-size: 48px;
@@ -304,12 +304,12 @@ span{
     color: #000000;
 }
 
-.fourth_left {
+.contact_left {
     width: 450px;
     margin-right: 5%;
 }
 
-.fourth h2 {
+.contact h2 {
     font-family: 'Insominia';
     font-style: normal;
     font-weight: 400;
@@ -320,7 +320,7 @@ span{
     color: #F85242;
 }
 
-.fourth p {
+.contact p {
     font-family: 'EuroStyle';
     font-style: normal;
     font-weight: 400;
@@ -331,23 +331,23 @@ span{
     color: #000000;
 }
 
-.fourth img {
+.contact img {
     width: 450px;
     height: 177px;
 }
 
-.fourth_right {
+.contact_right {
     width: 500px;
 }
 
-.fourth a {
+.contact a {
     width: 100%;
     font-family: 'EuroStyle';
     color: white;
     font-size: 30px;
 }
 
-.fourth_right input {
+.contact_right input {
     height: 50px;
     width: 100%;
 
@@ -359,13 +359,14 @@ form div {
     padding: 10px;
 }
 
-.fourth_button {
+.contact_button {
     justify-content: center;
     display: flex;
 }
 
-.fourth button {
+.contact button {
     width: 250px;
+    padding: 15px;
 }
 
 /* ----------------------------------------------------------- */
