@@ -44,7 +44,7 @@ html {
 .nav ul li {
     list-style: none;
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 9px;
     position: relative;
 }
 
@@ -62,7 +62,7 @@ html {
     background: #40E0AE;
     position: absolute;
     left: 0;
-    bottom: -10px;
+    bottom: -7.5px;
     transition: 0.5s;
 }
 
@@ -82,7 +82,7 @@ html {
     position: absolute;
     width: 100%;
     text-align: center;
-    top: 55%;
+    top: 57.5%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 85%;
@@ -92,13 +92,13 @@ html {
 .content img {
     height: 60%;
     width: auto;
-    padding: 7.5%;
+    padding: 5%;
 }
 
 .button{
     position: relative;
-    width: 33%;
-    padding: 25px;
+    width: 275px;
+    padding: 20px;
     border-radius: 90px;
     font-size: 30px;
     border: 2px solid #F85242;
@@ -152,7 +152,7 @@ span{
 
 .histoire img {
     width: 50%;
-    /* height: auto; */
+    max-width: 750px;
 }
 
 .histoire a {
@@ -172,7 +172,6 @@ span{
 }
 
 /* ----------------------------------------------------------- */
-    /* A Revoir pour le responsive */
 
 .telecharger {
     position: relative;
@@ -198,7 +197,7 @@ span{
     font-family: 'Insominia';
     text-align: center;
     position: relative;
-    padding-top: 25px;
+    padding-top: 30px;
     font-size: 48px;
 }
 
@@ -255,7 +254,6 @@ span{
 
 .telecharger_button {
     margin-top: 20px;
-    /* width: 33%; */
 }
 
 .telecharger button {
@@ -277,7 +275,7 @@ span{
 
 .contact_content {
     position: absolute;
-    top: 55%;
+    top: 57.5%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 85%;
@@ -302,6 +300,7 @@ span{
 
 .contact_left {
     width: 50%;
+    max-width: 500px;
     margin-right: 5%;
 }
 
@@ -333,12 +332,13 @@ span{
 
 .contact_right {
     width: 50%;
+    max-width: 500px;
 }
 
 .contact a {
     font-family: 'EuroStyle';
     color: white;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .contact_right input {
@@ -359,8 +359,7 @@ form div {
 }
 
 .contact button {
-    width: 250px;
-    padding: 15px;
+    padding: 20px;
 }
 
 /* ----------------------------------------------------------- */
@@ -385,6 +384,7 @@ form div {
 
 .footer_left {
     width: 33%;
+    max-width: 300px;
 }
 
 .footer_left p {
@@ -406,7 +406,7 @@ form div {
 .footer_mid {
     width: 33%;
     font-family: 'Insominia';
-    font-size: 30px;
+    font-size: 26px;
     font-style: normal;
     line-height: 40px;
     text-align: center;
@@ -424,6 +424,51 @@ form div {
 .footer_mid_txt {
     margin-top: 10px;
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer_mid_txt a{
+    text-decoration: none;
+    color: #40E0AE;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.footer_mid_txt ul {
+    padding: 0;
+}
+
+.footer_mid_txt ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.footer_mid_txt ul li a{
+    text-decoration: none;
+    color: #40E0AE;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.footer_mid_txt ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #40E0AE;
+    position: absolute;
+    left: 0;
+    bottom: -0.5px;
+    transition: 0.5s;
+}
+
+.footer_mid_txt ul li:hover:after{
+    width: 100%;
 }
 
 .footer button {
@@ -435,4 +480,5 @@ form div {
 
 .footer_right_img {
     width: 33%;
+    max-width: 300px;
 }
