@@ -8,18 +8,18 @@ html {
 
 @font-face {
     font-family: 'EuroStyle';
-    src: url('eurostile-font/EuroStyle_Normal.ttf');
+    src: url('../Font/eurostile-font/EuroStyle_Normal.ttf');
 }
 
 @font-face {
     font-family: 'Insominia';
-    src: url('insominia/Insominia.ttf');
+    src: url('../Font/insominia/Insominia.ttf');
 }
 
 .first {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(BG_1.png);
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(../Images/BG_1.png);
     background-size: cover;
     background-position: center;
 }
