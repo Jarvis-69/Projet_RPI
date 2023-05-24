@@ -36,7 +36,7 @@ html {
     font-size: 20px;
 }
 
-.logo {
+.first img {
     width: 225px;
     cursor: pointer;
 }
@@ -87,7 +87,7 @@ html {
     transform: translate(-50%, -50%);  
 }
 
-.content_logo {
+.content img {
     padding: 50px;
 }
 
@@ -135,7 +135,7 @@ span{
     background: #0F0C1F;
 }
 
-.second_content {
+.second div {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -146,23 +146,23 @@ span{
     align-items: center;
 }
 
-.second_img {
+.second img {
     height: 500px;
     width: 500px;
 }
 
-.second_txt {
+.second a {
     font-family: 'Insominia';
     margin-left: 2.5%;
 }
 
-.second_h1 {
+.second h1 {
     font-size: 40px;
     color: #FBDF5A;
     margin-bottom: 30px;
 }
 
-.second_p {
+.second p {
     font-size: 20px;
     color: white;
     width: 550px;
@@ -219,7 +219,7 @@ span{
     border-radius: 200px;
 }
 
-.third_numb {
+.third h3 {
     font-family: 'Insominia';
     font-style: normal;
     font-weight: 400;
@@ -229,7 +229,7 @@ span{
     color: #F85242;
 }
 
-.third_h1{
+.third h2 {
     width: 100%;
     height: 35px;
     padding-top: 10px;
@@ -244,7 +244,7 @@ span{
     color: #000000;
 }
 
-.third_p {
+.third p {
     width: 100%;
     height: 85px;
     font-family: 'EuroStyle';
@@ -287,7 +287,7 @@ span{
     align-items: center;
 }
 
-.fourth_title {
+.fourth h1 {
     position: relative;
     padding-top: 75px;
     font-size: 48px;
@@ -309,7 +309,7 @@ span{
     margin-right: 5%;
 }
 
-.fourth_left_h1 {
+.fourth h2 {
     font-family: 'Insominia';
     font-style: normal;
     font-weight: 400;
@@ -320,7 +320,7 @@ span{
     color: #F85242;
 }
 
-.fourth_left_p {
+.fourth p {
     font-family: 'EuroStyle';
     font-style: normal;
     font-weight: 400;
@@ -331,7 +331,7 @@ span{
     color: #000000;
 }
 
-.fourth_left_img {
+.fourth img {
     width: 450px;
     height: 177px;
 }
@@ -340,20 +340,7 @@ span{
     width: 500px;
 }
 
-.fourth_right_h1 {
-    text-align: center;
-    margin-bottom: 20px;
-
-    font-family: 'Insominia';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 40px;
-
-    color: #F85242;
-}
-
-.fourth_right_a {
+.fourth a {
     width: 100%;
     font-family: 'EuroStyle';
     color: white;
@@ -395,7 +382,7 @@ form div {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -407,7 +394,7 @@ form div {
     margin-right: 5%;
 }
 
-.footer_left_txt {
+.footer_left p {
     font-family: 'EuroStyle';
     font-style: normal;
     font-weight: 400;
@@ -418,7 +405,7 @@ form div {
     width: 100%;
 }
 
-.footer_left_img {
+.footer_left img {
     width: 300px;
     padding-bottom: 10px;
 }
@@ -448,12 +435,13 @@ form div {
 }
 
 .footer button {
-    width: 200px;
-    /* margin-top: 10px; */
+    width: 175px;
     padding: 10px;
+    font-size: 24px;
+    text-transform: uppercase;
 }
 
-.fifth_right_img {
+.footer_right_img {
     width: 308px;
     height: 124px;
     margin-left: 5%;
