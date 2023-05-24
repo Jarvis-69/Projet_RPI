@@ -84,16 +84,20 @@ html {
     text-align: center;
     top: 55%;
     left: 50%;
-    transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height: 75%;
 }
 
 .content img {
-    padding: 50px;
+    height: 60%;
+    width: auto;
+    padding: 7.5%;
 }
 
 .button{
     position: relative;
-    width: 390px;
+    width: 33%;
     padding: 25px;
     border-radius: 90px;
     font-size: 30px;
@@ -148,6 +152,7 @@ span{
 
 .histoire img {
     width: 50%;
+    /* height: auto; */
 }
 
 .histoire a {
@@ -250,6 +255,7 @@ span{
 
 .telecharger_button {
     margin-top: 20px;
+    /* width: 33%; */
 }
 
 .telecharger button {
