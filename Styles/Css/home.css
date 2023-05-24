@@ -38,13 +38,13 @@ html {
 
 .accueil img {
     width: 225px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .nav ul li {
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 15px;
     position: relative;
 }
 
@@ -73,7 +73,7 @@ html {
 .nav button {
     width: 175px;
     padding: 10px;
-    margin: 0px;
+    margin-left: 10px;
     font-size: 24px;
     text-transform: uppercase;
 }
@@ -140,15 +140,14 @@ span{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
+    width: 85%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .histoire img {
-    height: 500px;
-    width: 500px;
+    width: 50%;
 }
 
 .histoire a {
@@ -157,7 +156,7 @@ span{
 }
 
 .histoire h1 {
-    font-size: 40px;
+    font-size: 32px;
     color: #FBDF5A;
     margin-bottom: 30px;
 }
@@ -165,7 +164,6 @@ span{
 .histoire p {
     font-size: 20px;
     color: white;
-    width: 550px;
 }
 
 /* ----------------------------------------------------------- */
@@ -183,7 +181,7 @@ span{
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
+    width: 85%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -197,12 +195,11 @@ span{
     position: relative;
     padding-top: 25px;
     font-size: 48px;
-    height: 50px;
 }
 
 .left_div,
 .right_div {
-  width: 35%;
+  width: 50%;
   padding: 10px;
 }
 
@@ -230,8 +227,6 @@ span{
 }
 
 .telecharger h2 {
-    width: 100%;
-    height: 35px;
     padding-top: 10px;
     padding-bottom: 5px;
 
@@ -245,8 +240,6 @@ span{
 }
 
 .telecharger p {
-    width: 100%;
-    height: 85px;
     font-family: 'EuroStyle';
     font-style: normal;
     font-weight: 400;
@@ -281,7 +274,7 @@ span{
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
+    width: 85%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -291,9 +284,6 @@ span{
     position: relative;
     padding-top: 75px;
     font-size: 48px;
-    height: 40px;
-    width: 100%;
-
     font-family: 'Insominia';
     font-style: normal;
     font-weight: 400;
@@ -305,7 +295,7 @@ span{
 }
 
 .contact_left {
-    width: 450px;
+    width: 50%;
     margin-right: 5%;
 }
 
@@ -332,16 +322,14 @@ span{
 }
 
 .contact img {
-    width: 450px;
-    height: 177px;
+    width: 100%;
 }
 
 .contact_right {
-    width: 500px;
+    width: 50%;
 }
 
 .contact a {
-    width: 100%;
     font-family: 'EuroStyle';
     color: white;
     font-size: 30px;
@@ -383,16 +371,14 @@ form div {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80%;
+    width: 85%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .footer_left {
-    width: 300px;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 33%;
 }
 
 .footer_left p {
@@ -407,12 +393,12 @@ form div {
 }
 
 .footer_left img {
-    width: 300px;
+    width: 100%;
     padding-bottom: 10px;
 }
 
 .footer_mid {
-    width: 25%;
+    width: 33%;
     font-family: 'Insominia';
     font-size: 30px;
     font-style: normal;
@@ -427,7 +413,6 @@ form div {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 24px;
-    width: 100%;
 }
 
 .footer_mid_txt {
@@ -443,8 +428,5 @@ form div {
 }
 
 .footer_right_img {
-    width: 308px;
-    height: 124px;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 33%;
 }
