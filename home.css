@@ -335,11 +335,6 @@ span{
     height: 177px;
 }
 
-
-
-
-
-
 .fourth_right {
     width: 500px;
 }
@@ -354,7 +349,7 @@ span{
     font-size: 40px;
     line-height: 40px;
 
-    color: #000000;
+    color: #F85242;
 }
 
 .fourth_right_a {
@@ -372,17 +367,22 @@ span{
     border-color: white;
 }
 
+form div {
+    padding: 10px;
+}
+
+.fourth_button {
+    justify-content: center;
+    display: flex;
+}
+
+.fourth button {
+    width: 250px;
+}
+
 /* ----------------------------------------------------------- */
 
 .footer {
-    /* position: absolute;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 410px;
-    top: 3750px;
-    background: #0F0C1F; */
-
     position: relative;
     width: 100%;
     height: 50vh;
@@ -390,11 +390,6 @@ span{
 }
 
 .footer_content {
-    /* position: absolute;
-    width: 1100px;
-    height: 300px;
-    top: 50px; */
-
     position: absolute;
     top: 50%;
     left: 50%;
@@ -407,23 +402,8 @@ span{
 
 .footer_left {
     position: relative;
-    width: 261px;
-    top: 20px;
-}
-
-.footer_img {
-    position: absolute;
-    left: 20px;
-    top: 25px;
-}
-
-.footer_mid {
-    position: absolute;
-    width: 238px;
-    height: 275px;
-    left: 37.5%;
-    top: 10px;
-    align-items: center;
+    width: 25%;
+    /* top: 20px; */
 }
 
 .footer_left_txt {
@@ -435,14 +415,21 @@ span{
     text-align: center;
     color: white;
 
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
-    top: 140px;
+    /* top: 140px; */
+}
+
+.footer_left_img {
+    /* position: relative; */
+    /* left: 20px; */
+    /* top: 25px; */
+    margin: 0 auto;
 }
 
 .footer_mid {
-    width: 100%;
-    height: 37px;
+    width: 25%;
+    /* height: 37px; */
 
     font-family: 'Insominia';
     font-style: normal;
@@ -455,10 +442,10 @@ span{
 }
 
 .footer_mid_txt {
-    position: absolute;
-    top: 60px;
+    /* position: absolute; */
+    /* top: 60px; */
     width: 100%;
-    height: 140px;
+    /* height: 140px; */
 
     font-family: 'EuroStyle';
     font-style: normal;
@@ -473,8 +460,8 @@ span{
 .footer_buton {
     box-sizing: border-box;
 
-    position: absolute;
-    top: 225px;
+    /* position: absolute; */
+    /* top: 225px; */
     width: 100%;
     height: 50px;
 
@@ -487,6 +474,17 @@ span{
     color: white;
     padding-top: 20px;
 }
+
+
+/* 
+.footer_mid {
+    position: absolute;
+    width: 238px;
+    height: 275px;
+    left: 37.5%;
+    top: 10px;
+    align-items: center;
+} */
 
 .fifth_right_img {
     position: relative;
