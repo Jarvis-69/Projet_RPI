@@ -45,7 +45,7 @@ html {
 .nav ul li {
     list-style: none;
     display: inline-block;
-    margin: 0 9px;
+    margin: 0 10px;
     position: relative;
 }
 
@@ -118,16 +118,17 @@ span{
 
 .content {
     position: absolute;
-    /* width: 100%; */
     text-align: center;
-    top: 57.5%;
+    top: 62.5%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 85%;
-    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.content h1 {
+h1 {
     position: relative;
     width: 100%;
     text-align: center;
@@ -136,7 +137,7 @@ span{
     color: #FBDF5A;
 }
 
-.content p {
+p {
     position: relative;
     color: white;
     text-align: center;
@@ -147,92 +148,45 @@ span{
 
 .content img {
     position: relative;
-    float: right;
-    top: 50px;
-    height: 500px;
-    width: 500px;
+    width: 50%;
+    max-width: 450px;
+    margin-left: 5%;
 }
 
-/* .div2 {
-    position: absolute;
-    top: 100px;
-    width: 500px;
-    height: 500px;
-} */
+.content_left {
+    width: 50%;
+    max-width: 500px;
+}
 
-.form a {
-    /* position: absolute; */
-    /* left: 25px; */
-    /* top: 75px; */
-    position: relative;
+form {
+    width: 100%;
+}
 
+form a {
+    /* position: relative; */
     font-family: 'EuroStyle';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 20px;
-    text-align: justify;
+    line-height: 26px;
+    /* text-align: justify; */
     color: #FFFFFF;
+    /* margin-bottom: 10px; */
 }
 
-.form input {
-    position: relative;
-    /* position: absolute;
-    top: 100px;
-    left: 0%; */
-    height: 50px;
+form input {
+    /* position: relative; */
+    height: 45px;
     width: 100%;
-
     border-radius: 10px;
     border-color: white;
 }
 
-/* .div_a2 {
-    position: absolute;
-    left: 25px;
-    top: 175px;
+form div {
+    margin-top: 20px;
+}
 
-    font-family: 'EuroStyle';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 20px;
-    text-align: justify;
 
-    color: #FFFFFF;
-} */
-
-/* .name {
-    position: absolute;
-    top: 200px;
-    left: 0%;
-    height: 50px;
-    width: 100%;
-
-    border-radius: 10px;
-    border-color: white;
-} */
-
-/* .div_a {
-    position: absolute;
-    width: 225px;
-    height: 50px;
-    top: 350px;
-    justify-content: center;
-    
-    font-family: 'Insominia';
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 20px;
-    margin-left: 137.5px;
-    margin-right: 137.5px;
-
-    background: #F85242;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    filter: drop-shadow(0px 4px 4px .40E0AE);
-} */
 
 /* ---------------------------------------------- */
 
@@ -289,7 +243,7 @@ span{
 
 .footer_mid a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #40E0AE;
     font-size: 24px;
 }
 
