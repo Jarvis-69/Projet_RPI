@@ -74,26 +74,30 @@ html {
 .nav button {
     width: 175px;
     padding: 10px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     font-size: 24px;
     text-transform: uppercase;
 }
 
 .content{
     position: absolute;
-    width: 100%;
     text-align: center;
-    top: 57.5%;
+    top: 425px;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 85%;
-    height: 75%;
+    /* max-height: 85vh; */
+    /* height: 75%; */
 }
 
 .content img {
-    height: 60%;
-    width: auto;
-    padding: 5%;
+    /* height: 50%; */
+    /* width: auto; */
+    /* padding: 5%; */
+}
+
+.content div {
+    margin-top: 50px;
 }
 
 .button{
