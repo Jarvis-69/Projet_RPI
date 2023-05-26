@@ -76,6 +76,10 @@ html {
     text-transform: uppercase;
 }
 
+.nav .burger {
+    display: none;
+}
+
 .content{
     position: absolute;
     text-align: center;

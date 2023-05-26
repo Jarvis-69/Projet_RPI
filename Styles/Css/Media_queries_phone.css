@@ -1,5 +1,53 @@
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1100px) {
     
+    .nav {
+        margin: 0px;
+    }
+    
+    .nav ul {
+        /* display: none; */
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    
+    /* .nav ul li {
+        width: 100%;
+    } */
+
+    .nav button {
+        display: none;
+    }
+
+    .nav .burger {
+        width: 50px;
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .content{
         top: 60%;
     }
