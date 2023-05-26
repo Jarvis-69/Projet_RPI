@@ -17,7 +17,6 @@ html {
 }
 
 .accueil {
-    position: relative;
     width: 100%;
     height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(../Images/BG_1.png);
@@ -28,18 +27,16 @@ html {
 .nav {
     display: flex;
     width: 85%;
-    padding: 35px 0;
+    padding: 30px 0;
     margin: auto;
     align-items: center;
     justify-content: space-between;
-
     font-family: 'Insominia';
     font-size: 20px;
 }
 
 .accueil img {
     width: 225px;
-    /* cursor: pointer; */
 }
 
 .nav ul li {
@@ -74,7 +71,7 @@ html {
 .nav button {
     width: 175px;
     padding: 10px;
-    /* margin-left: 10px; */
+    margin-left: 10px;
     font-size: 24px;
     text-transform: uppercase;
 }
@@ -82,18 +79,9 @@ html {
 .content{
     position: absolute;
     text-align: center;
-    top: 425px;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 85%;
-    /* max-height: 85vh; */
-    /* height: 75%; */
-}
-
-.content img {
-    /* height: 50%; */
-    /* width: auto; */
-    /* padding: 5%; */
 }
 
 .content div {
@@ -149,7 +137,7 @@ span{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 85%;
+    width: 75%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -192,7 +180,7 @@ span{
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 85%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -240,7 +228,6 @@ span{
 .telecharger h2 {
     padding-top: 10px;
     padding-bottom: 5px;
-
     font-family: 'Insominia';
     font-style: normal;
     font-weight: 400;
@@ -285,7 +272,7 @@ span{
     top: 57.5%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 85%;
+    width: 75%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -301,7 +288,6 @@ span{
     font-size: 48px;
     line-height: 48px;
     text-align: center;
-
     color: #000000;
 }
 
@@ -383,7 +369,7 @@ form div {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 85%;
+    width: 75%;
     display: flex;
     justify-content: center;
     align-items: center;
