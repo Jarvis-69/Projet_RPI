@@ -1,36 +1,46 @@
 @media only screen and (max-width: 1100px) {
     
-    .nav {
-        margin: 0px;
+    nav a {
+        visibility: hidden;
     }
-    
-    .nav ul {
-        /* display: none; */
+
+    nav label {
         position: absolute;
         display: flex;
-        flex-direction: column;
-        height: 100vh;
-        padding: 0px;
-        margin: 0px;
-        width: 100%;
+        justify-content: center;
+        /* align-items: center; */
+        /* top: 20px; */
+        /* left: 500px; */
+        height: 40px;
+        width: 22px;
+        cursor: pointer;
     }
-    
-    /* .nav ul li {
-        width: 100%;
+
+    nav div {
+        width: 22px;
+        height: 3px;
+        background-color: #FFFFFF;
+        position: absolute;
+    }
+
+    nav div .diagonal {
+        /* position: relative; */
+        float: left;
+        margin-top: 5px;
+    }
+
+    .horizontal {
+        /* position: relative; */
+        float: left;
+        margin-top: 5px;
+    }
+
+    /* nav div .diagonal2 {
+        position: absolute;
+        float: left;
+        margin-top: 5px;
+        bottom: 0px;
     } */
-
-    .nav button {
-        display: none;
-    }
-
-    .nav .burger {
-        width: 50px;
-        display: block;
-    }
-
-
-
-
 
 
 
