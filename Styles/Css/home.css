@@ -76,6 +76,10 @@ nav .button {
     text-transform: uppercase;
 }
 
+#burger {
+    display: none;
+}
+
 nav .burger {
     display: none;
 }
