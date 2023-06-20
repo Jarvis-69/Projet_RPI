@@ -19,7 +19,7 @@
         margin-top: -7px;
     }
       
-    #burger:checked + .menu + nav {
+    #burger:checked + .menu ~ nav {
         top: 0;
         transform: scale(1);
     }
@@ -46,7 +46,7 @@
         width: 50px;
         height: 7.5px;
         border-radius: 1px;
-        /* background-color: #000; */
+        background-color: #000;
         background-color: white;
         margin-top: 5.2px;
         transition: all 0.2s ease-in-out;
@@ -56,14 +56,16 @@
         position: fixed;
         width: 100%;
         height: 100%;
-        background-color: #ccc;
+        /* background-color: #ccc; */
+        background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
         top: -100%;
         left: 0;
         right: 0;
         bottom: 0;
-        overflow: hidden;
+        /* overflow: hidden; */
         transition: all 0.3s ease-in-out;
         transform: scale(0);
+        z-index: 4;
     }
 
     nav img {
@@ -72,7 +74,7 @@
 
     .nav-wrapper {
         position: relative;
-        overflow: hidden;
+        /* overflow: hidden; */
         overflow-y: auto;
         height: 100%;
     }
@@ -95,8 +97,9 @@
     }
 
     nav a:hover {
-        color: #eee;
-        z-index: 1;
+        /* color: #eee; */
+        color: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),
+        /* z-index: 1; */
     }
 
     .img_queries {
