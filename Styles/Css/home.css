@@ -39,6 +39,10 @@ nav {
     width: 225px;
 }
 
+.img_queries {
+    display: none;
+}
+
 nav ul li {
     list-style: none;
     display: inline-block;
