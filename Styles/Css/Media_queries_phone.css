@@ -126,25 +126,27 @@
 
     .button {
         width: 50%;
-        height: 10%;
+        height: 15%;
         padding: 10px;
-        font-size: 52px;
+        font-size: 32px;
         /* margin-top: 33%; */
     }
 
     /* -------------------------------------------------- */
 
     .histoire div {
-        height: 85%;
+        height: 100%;
     }
 
     .histoire img {
-        max-width: 100%;
-        height: auto;
+        /* max-width: 100%;
+        height: auto; */
+        display: none;
     }
 
     .histoire a {
         margin-left: 0%;
+        margin-top: 0%;
     }
 
     /* .histoire h1 {
@@ -153,7 +155,7 @@
     } */
 
     .histoire p {
-        font-size: 42px;
+        font-size: 22px;
         color: white;
     }
 
@@ -173,8 +175,8 @@
     }
 
     .telecharger_circle {
-        width: 185px;
-        height: 185px;
+        width: 85px;
+        height: 85px;
         margin: 0 auto;
         background: #40E0AE;
         border-radius: 200px;
@@ -184,8 +186,8 @@
         font-family: 'Insominia';
         font-style: normal;
         font-weight: 400;
-        font-size: 185px;
-        line-height: 195px;
+        font-size: 85px;
+        line-height: 95px;
         text-align: center;
         color: #F85242;
     }
@@ -197,8 +199,8 @@
         font-family: 'Insominia';
         font-style: normal;
         font-weight: 400;
-        font-size: 52px;
-        line-height: 54px;
+        font-size: 22px;
+        line-height: 24px;
         text-align: center;
         color: #000000;
     }
@@ -207,7 +209,7 @@
         font-family: 'EuroStyle';
         font-style: normal;
         font-weight: 400;
-        font-size: 48px;
+        font-size: 28px;
         text-align: center;
         color: #000000;
     }
