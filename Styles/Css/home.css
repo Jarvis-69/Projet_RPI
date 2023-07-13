@@ -361,11 +361,12 @@ form div {
 .contact_button {
     justify-content: center;
     display: flex;
-}
-
-.contact button {
     padding: 20px;
 }
+
+/* .contact button {
+    padding: 20px;
+} */
 
 /* ----------------------------------------------------------- */
 
